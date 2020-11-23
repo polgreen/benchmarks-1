@@ -1,0 +1,1 @@
+(set-logic BV) (define-fun origCir ((i16 Bool) (i15 Bool) (i14 Bool)) Bool (and (not (and (not i16) i15)) (not (and (not i15) i14)))) (synth-fun skel ((i16 Bool) (i15 Bool) (i14 Bool)) Bool) (declare-var i16 Bool) (declare-var i15 Bool) (declare-var i14 Bool) (constraint (= (origCir i16 i15 i14) (skel i16 i15 i14))) (check-synth)
