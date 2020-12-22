@@ -1,0 +1,1 @@
+(set-logic BV) (define-fun origCir ((n234 Bool) (n174 Bool) (n114 Bool) (n87 Bool)) Bool (and n234 (and n174 (and n114 n87)))) (synth-fun skel ((n234 Bool) (n174 Bool) (n114 Bool) (n87 Bool)) Bool) (declare-var n234 Bool) (declare-var n174 Bool) (declare-var n114 Bool) (declare-var n87 Bool) (constraint (= (origCir n234 n174 n114 n87) (skel n234 n174 n114 n87))) (check-synth)

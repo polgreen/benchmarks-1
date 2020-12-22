@@ -1,0 +1,1 @@
+(set-logic BV) (define-fun hd13 ((x (_ BitVec 32))) (_ BitVec 32) (bvor (bvashr x #x0000001F) (bvlshr (bvneg x) #x0000001F))) (synth-fun f ((x (_ BitVec 32))) (_ BitVec 32)) (declare-var x (_ BitVec 32)) (constraint (= (hd13 x) (f x))) (check-synth)
