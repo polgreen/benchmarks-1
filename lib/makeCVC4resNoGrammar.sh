@@ -6,9 +6,9 @@ function processCVC4 {
 # $2 = total time to add to
 # $3 = benchmark counter to add to
 
-if grep -q "elapsed" $1; then
+if grep -q -m 1 "elapsed" $1; then
 
-    tmptime=$(grep -o -P '(?<=system).*(?=elapsed)' $1)
+    tmptime=$(grep -o -P '(?<=system).*(?=elapsed)' $1 | tail -1)
     minutes=$(echo "$tmptime" | cut -d":" -f1)
     seconds=$(echo "$tmptime" | cut -d":" -f2 | cut -d"." -f1)
     millis=$(echo "$tmptime" | cut -d":" -f2 | cut -d"." -f2)
@@ -55,11 +55,11 @@ function getData {
    time2=$((cvc4_nosi_total_time))
    processCVC4 $f.cvc4_sygusrepair.output cvc4_t_total_time cvc4_t_total_BM_final
    tmp3=$((cvc4_const_total_BM))
-   processCVC4 $f.cvc4_add_const.output cvc4_const_total_time cvc4_const_total_BM
+   processCVC4 $f.cvc4_const.output cvc4_const_total_time cvc4_const_total_BM
  #    echo "no si"
    tmp2=$((cvc4_nosi_total_BM))
    #   echo "tmp 2 is $tmp2"
-   processCVC4 $f.cvc4_no_si.output cvc4_nosi_total_time cvc4_nosi_total_BM
+   processCVC4 $f.cvc4_nosi.output cvc4_nosi_total_time cvc4_nosi_total_BM
   
 
      if [ $((cvc4_t_total_BM_final-tmp1)) -gt 0 ]  && [ $((cvc4_nosi_total_BM-tmp2)) -eq 0 ] && [ $((cvc4_const_total_BM-tmp3)) -eq 0 ]; then
