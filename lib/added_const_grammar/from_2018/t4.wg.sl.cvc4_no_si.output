@@ -1,0 +1,5 @@
+241bfdc9964ae26ed6adb204aa2cc6a56c82de53  /home/ubuntu/CVC4/build/bin/cvc4
+unsat
+(define-fun f_141-11-141-28 ((x.end Int) (size Int) (i Int) (elem.end Int)) Bool (= 122 x.end))
+0.04user 0.00system 0:00.05elapsed 100%CPU (0avgtext+0avgdata 26028maxresident)k
+8inputs+0outputs (0major+1243minor)pagefaults 0swaps

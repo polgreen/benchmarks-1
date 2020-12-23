@@ -1,0 +1,4 @@
+unsat
+(define-fun inv ((i Int) (y Int) (l Int)) Bool (and (<= y l) (<= 0 i)))
+6.25user 0.02system 0:06.28elapsed 99%CPU (0avgtext+0avgdata 43672maxresident)k
+0inputs+8outputs (0major+5613minor)pagefaults 0swaps

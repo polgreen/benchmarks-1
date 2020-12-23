@@ -1,0 +1,4 @@
+unsat
+(define-fun inv-f ((p Int) (c Int) (cl Int)) Bool (and (or (and (not (>= p 4)) (>= cl 1)) (not (>= c 4)) (= p 4)) (= p (+ c (* (- 1) cl)))))
+8.17user 0.02system 0:08.20elapsed 99%CPU (0avgtext+0avgdata 50900maxresident)k
+8inputs+8outputs (0major+7488minor)pagefaults 0swaps

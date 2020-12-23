@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((n719 Bool) (n721 Bool) (n727 Bool) (n715 Bool) (n708 Bool)) Bool (not (or n708 (or (and n719 (not n721)) (and n727 (not n715))))))
+25.93user 0.03system 0:25.96elapsed 99%CPU (0avgtext+0avgdata 69444maxresident)k
+0inputs+8outputs (0major+12067minor)pagefaults 0swaps

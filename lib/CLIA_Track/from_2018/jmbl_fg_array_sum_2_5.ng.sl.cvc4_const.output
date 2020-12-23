@@ -1,0 +1,16 @@
+unsat
+(define-fun fnd_sum ((y1 Int) (y2 Int)) Int (let ((_let_1 (+ y1 y2))) (ite (<= 6 _let_1) _let_1 0)))
+23.82user 0.10system 0:23.93elapsed 99%CPU (0avgtext+0avgdata 191304maxresident)k
+0inputs+8outputs (0major+44016minor)pagefaults 0swaps
+unsat
+(define-fun fnd_sum ((y1 Int) (y2 Int)) Int (let ((_let_1 (+ y1 y2))) (ite (<= 6 _let_1) _let_1 0)))
+23.95user 0.08system 0:24.03elapsed 99%CPU (0avgtext+0avgdata 191228maxresident)k
+0inputs+0outputs (0major+44063minor)pagefaults 0swaps
+unsat
+(define-fun fnd_sum ((y1 Int) (y2 Int)) Int (let ((_let_1 (+ y1 y2))) (ite (<= 6 _let_1) _let_1 0)))
+23.96user 0.09system 0:24.06elapsed 99%CPU (0avgtext+0avgdata 191280maxresident)k
+0inputs+0outputs (0major+44034minor)pagefaults 0swaps
+unsat
+(define-fun fnd_sum ((y1 Int) (y2 Int)) Int (let ((_let_1 (+ y1 y2))) (ite (<= 6 _let_1) _let_1 0)))
+24.27user 0.10system 0:24.38elapsed 99%CPU (0avgtext+0avgdata 191364maxresident)k
+0inputs+0outputs (0major+46374minor)pagefaults 0swaps

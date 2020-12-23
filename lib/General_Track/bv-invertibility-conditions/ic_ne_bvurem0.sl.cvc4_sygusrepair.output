@@ -1,0 +1,5 @@
+241bfdc9964ae26ed6adb204aa2cc6a56c82de53  /home/ubuntu/CVC4/build/bin/cvc4
+unsat
+(define-fun SC ((s (_ BitVec 4)) (t (_ BitVec 4))) Bool (bvuge t (bvand (bvlshr #b0111 s) s)))
+103.60user 0.01system 1:43.62elapsed 99%CPU (0avgtext+0avgdata 54344maxresident)k
+0inputs+8outputs (0major+8106minor)pagefaults 0swaps

@@ -1,0 +1,4 @@
+unsat
+(define-fun InvF ((y Int) (z Int) (c Int)) Bool (and (or (>= c 36) (and (>= z 0) (not (>= z 4608)))) (not (>= (+ z (* (- 1) c)) 4573))))
+2.22user 0.02system 0:02.24elapsed 100%CPU (0avgtext+0avgdata 54324maxresident)k
+0inputs+8outputs (0major+8325minor)pagefaults 0swaps

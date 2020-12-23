@@ -1,0 +1,4 @@
+unsat
+(define-fun InvF ((x1 Int) (x2 Int) (x3 Int) (x4 Int)) Bool (let ((_let_1 (* (- 1) x4))) (and (not (>= x1 1)) (>= (+ x1 _let_1) 1) (= x2 x3) (or (>= x4 0) (>= (+ x3 _let_1) 0)))))
+0.01user 0.00system 0:00.01elapsed 100%CPU (0avgtext+0avgdata 24532maxresident)k
+0inputs+8outputs (0major+932minor)pagefaults 0swaps

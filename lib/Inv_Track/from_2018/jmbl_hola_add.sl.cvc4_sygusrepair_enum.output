@@ -1,0 +1,4 @@
+unsat
+(define-fun InvF ((x Int) (y Int) (n Int)) Bool (= x (+ (* (- 1) y) n)))
+7.76user 0.00system 0:07.77elapsed 100%CPU (0avgtext+0avgdata 49000maxresident)k
+8inputs+8outputs (0major+6962minor)pagefaults 0swaps

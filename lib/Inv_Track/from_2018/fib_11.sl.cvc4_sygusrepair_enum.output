@@ -1,0 +1,4 @@
+unsat
+(define-fun inv-f ((x Int) (i Int) (j Int)) Bool (and (or (>= (+ x (* (- 1) i)) 1) (= j (* 2 x))) (= j (* 2 i))))
+43.94user 0.04system 0:43.98elapsed 99%CPU (0avgtext+0avgdata 81396maxresident)k
+8inputs+8outputs (0major+14715minor)pagefaults 0swaps

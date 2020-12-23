@@ -1,0 +1,4 @@
+unsat
+(define-fun inv-f ((conf_0 Int) (conf_1 Int) (conf_2 Int) (conf_3 Int) (conf_4 Int) (x Int) (y Int) (conf_0_0 Int) (conf_1_0 Int) (conf_2_0 Int) (conf_3_0 Int) (conf_3_1 Int) (conf_3_2 Int) (conf_4_0 Int) (x_0 Int) (x_1 Int) (y_0 Int) (y_1 Int) (y_2 Int) (y_3 Int)) Bool (and (= x 0) (>= y 0) (or (not (= conf_0 conf_0_0)) (not (= conf_1 conf_1_0)) (not (= conf_2 conf_2_0)) (not (= conf_3 conf_3_1)) (not (= conf_4 conf_4_0)) (not (= y y_2)) (>= y_2 0) (not (= x_1 0)))))
+48.69user 0.15system 0:48.84elapsed 99%CPU (0avgtext+0avgdata 295392maxresident)k
+0inputs+8outputs (0major+70238minor)pagefaults 0swaps

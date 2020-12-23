@@ -1,0 +1,6 @@
+241bfdc9964ae26ed6adb204aa2cc6a56c82de53  /home/ubuntu/CVC4/build/bin/cvc4
+unsat
+(define-fun addExpr1 ((x Int) (y Int)) Int (- 0 y))
+(define-fun addExpr2 ((x Int) (y Int)) Int y)
+0.05user 0.00system 0:00.05elapsed 98%CPU (0avgtext+0avgdata 26068maxresident)k
+8inputs+0outputs (0major+1168minor)pagefaults 0swaps

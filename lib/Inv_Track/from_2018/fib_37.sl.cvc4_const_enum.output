@@ -1,0 +1,4 @@
+unsat
+(define-fun inv-f ((x Int) (m Int) (n Int)) Bool (let ((_let_1 (* (- 1) n))) (and (>= m 0) (>= (+ x (* (- 1) m)) 0) (or (not (>= (+ x _let_1) 0)) (not (>= n 1)) (not (>= (+ m _let_1) 0))))))
+0.07user 0.00system 0:00.08elapsed 98%CPU (0avgtext+0avgdata 27272maxresident)k
+0inputs+8outputs (0major+1576minor)pagefaults 0swaps

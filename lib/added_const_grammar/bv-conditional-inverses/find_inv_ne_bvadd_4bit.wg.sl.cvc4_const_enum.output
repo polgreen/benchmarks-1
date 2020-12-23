@@ -1,0 +1,4 @@
+unsat
+(define-fun inv ((s (_ BitVec 4)) (t (_ BitVec 4))) (_ BitVec 4) (bvnot (bvadd s t)))
+0.05user 0.00system 0:00.06elapsed 96%CPU (0avgtext+0avgdata 28720maxresident)k
+0inputs+8outputs (0major+1792minor)pagefaults 0swaps

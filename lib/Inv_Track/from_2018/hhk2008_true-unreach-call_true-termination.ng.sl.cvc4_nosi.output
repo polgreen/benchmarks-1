@@ -1,0 +1,4 @@
+unsat
+(define-fun inv-f ((a Int) (b Int) (res Int) (cnt Int)) Bool (let ((_let_1 (* (- 1) b))) (and (or (>= cnt 1) (= a (+ _let_1 res))) (= a (+ _let_1 res cnt)))))
+0.52user 0.00system 0:00.52elapsed 100%CPU (0avgtext+0avgdata 33072maxresident)k
+0inputs+8outputs (0major+3047minor)pagefaults 0swaps

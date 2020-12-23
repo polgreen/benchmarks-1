@@ -1,0 +1,4 @@
+unsat
+(define-fun inv-f ((x Int) (y Int)) Bool (and (not (>= x 2)) (>= y (- 3))))
+0.01user 0.00system 0:00.01elapsed 92%CPU (0avgtext+0avgdata 24740maxresident)k
+0inputs+8outputs (0major+934minor)pagefaults 0swaps

@@ -1,0 +1,5 @@
+241bfdc9964ae26ed6adb204aa2cc6a56c82de53  /home/ubuntu/CVC4/build/bin/cvc4
+unsat
+(define-fun f ((x Int) (y Int)) Int (ite (= 0 0) (- 1) (- 4)))
+0.27user 0.01system 0:00.28elapsed 99%CPU (0avgtext+0avgdata 29088maxresident)k
+8inputs+0outputs (0major+1989minor)pagefaults 0swaps

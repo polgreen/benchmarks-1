@@ -1,0 +1,4 @@
+unsat
+(define-fun InvF ((x Int) (n Int) (v1 Int) (v2 Int) (v3 Int)) Bool (or (not (>= (+ x (* (- 1) n)) 0)) (= x n) (not (>= n 0))))
+0.01user 0.00system 0:00.01elapsed 100%CPU (0avgtext+0avgdata 24632maxresident)k
+0inputs+8outputs (0major+925minor)pagefaults 0swaps

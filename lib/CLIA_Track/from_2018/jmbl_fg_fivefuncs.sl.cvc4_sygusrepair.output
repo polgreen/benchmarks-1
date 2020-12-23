@@ -1,0 +1,9 @@
+241bfdc9964ae26ed6adb204aa2cc6a56c82de53  /home/ubuntu/CVC4/build/bin/cvc4
+unsat
+(define-fun f1 ((p1 Int) (P1 Int)) Int 0)
+(define-fun f2 ((p1 Int) (P1 Int)) Int 0)
+(define-fun f3 ((p1 Int) (P1 Int)) Int (- 0 P1))
+(define-fun f4 ((p1 Int) (P1 Int)) Int 0)
+(define-fun f5 ((p1 Int) (P1 Int)) Int (- p1 p1))
+2.77user 0.01system 0:02.79elapsed 99%CPU (0avgtext+0avgdata 35236maxresident)k
+0inputs+0outputs (0major+3373minor)pagefaults 0swaps

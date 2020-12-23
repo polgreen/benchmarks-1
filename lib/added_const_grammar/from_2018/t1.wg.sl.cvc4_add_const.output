@@ -1,0 +1,5 @@
+241bfdc9964ae26ed6adb204aa2cc6a56c82de53  /home/ubuntu/CVC4/build/bin/cvc4
+unsat
+(define-fun f_119-13-119-51 ((stopTime Int) (this.stopTime Int) (org.apache.commons.lang.time.StopWatch.STATE_RUNNING Int) (this.splitState Int) (org.apache.commons.lang.time.StopWatch.STATE_SUSPENDED Int) (org.apache.commons.lang.time.StopWatch.STATE_UNSTARTED Int) (this.startTime Int) (org.apache.commons.lang.time.StopWatch.STATE_SPLIT Int) (org.apache.commons.lang.time.StopWatch.STATE_UNSPLIT Int) (org.apache.commons.lang.time.StopWatch.STATE_STOPPED Int) (MC_741360 Int) (this.runningState Int)) Bool (= 0 org.apache.commons.lang.time.StopWatch.STATE_RUNNING))
+0.01user 0.00system 0:00.01elapsed 100%CPU (0avgtext+0avgdata 24492maxresident)k
+0inputs+0outputs (0major+883minor)pagefaults 0swaps

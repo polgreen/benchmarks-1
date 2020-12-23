@@ -1,0 +1,4 @@
+unsat
+(define-fun f_141-11-141-28 ((x.end Int) (size Int) (i Int) (elem.end Int)) Bool (or (not (= size 2)) (not (= i 1)) (and (or (not (= x.end 3)) (not (= elem.end 4))) (or (not (= x.end 300)) (not (= elem.end 305))) (or (not (= x.end 2)) (not (= elem.end 21))))))
+0.01user 0.00system 0:00.01elapsed 94%CPU (0avgtext+0avgdata 24556maxresident)k
+0inputs+8outputs (0major+937minor)pagefaults 0swaps

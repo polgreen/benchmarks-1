@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((i_9 Bool) (n104 Bool) (n166 Bool) (n164 Bool)) Bool (and n164 (and (or n166 (and i_9 n104)) (not (and i_9 (and n104 n166))))))
+33.24user 0.03system 0:33.28elapsed 99%CPU (0avgtext+0avgdata 75136maxresident)k
+0inputs+8outputs (0major+13572minor)pagefaults 0swaps

@@ -1,0 +1,4 @@
+unsat
+(define-fun inv-f ((x Int) (m Int) (n Int)) Bool (and (>= x 0) (or (not (>= n 1)) (and (>= m 0) (not (>= (+ m (* (- 1) n)) 0))))))
+0.09user 0.00system 0:00.09elapsed 98%CPU (0avgtext+0avgdata 27240maxresident)k
+0inputs+8outputs (0major+1511minor)pagefaults 0swaps

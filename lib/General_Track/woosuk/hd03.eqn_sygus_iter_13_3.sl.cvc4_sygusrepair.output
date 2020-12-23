@@ -1,0 +1,5 @@
+241bfdc9964ae26ed6adb204aa2cc6a56c82de53  /home/ubuntu/CVC4/build/bin/cvc4
+unsat
+(define-fun skel ((i50 Bool) (i18 Bool) (i17 Bool) (i49 Bool) (i48 Bool) (i16 Bool)) Bool (and (and (xor i49 i17) i16) (and (xor i18 i50) i48)))
+99.15user 0.00system 1:39.16elapsed 99%CPU (0avgtext+0avgdata 74232maxresident)k
+0inputs+8outputs (0major+13118minor)pagefaults 0swaps

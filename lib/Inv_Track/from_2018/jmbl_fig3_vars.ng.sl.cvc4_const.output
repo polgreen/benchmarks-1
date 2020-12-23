@@ -1,0 +1,4 @@
+unsat
+(define-fun InvF ((x Int) (y Int) (lock Int) (v1 Int) (v2 Int) (v3 Int)) Bool (or (not (= x y)) (= lock 1)))
+0.01user 0.00system 0:00.01elapsed 92%CPU (0avgtext+0avgdata 24760maxresident)k
+0inputs+8outputs (0major+920minor)pagefaults 0swaps

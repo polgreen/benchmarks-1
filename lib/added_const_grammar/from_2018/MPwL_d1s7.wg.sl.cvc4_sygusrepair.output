@@ -1,0 +1,5 @@
+241bfdc9964ae26ed6adb204aa2cc6a56c82de53  /home/ubuntu/CVC4/build/bin/cvc4
+unsat
+(define-fun move ((currPoint Int) (o0 Int) (o1 Int)) Int 1)
+4.10user 0.01system 0:04.12elapsed 99%CPU (0avgtext+0avgdata 46904maxresident)k
+24inputs+0outputs (0major+6425minor)pagefaults 0swaps

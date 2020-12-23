@@ -1,0 +1,5 @@
+241bfdc9964ae26ed6adb204aa2cc6a56c82de53  /home/ubuntu/CVC4/build/bin/cvc4
+unsat
+(define-fun inv ((y Int) (z Int) (c Int)) Bool (let ((_let_1 (- 1))) (let ((_let_2 (* _let_1 z))) (and (<= (+ _let_2 _let_2) 1) (<= (+ (* _let_1 c) (* 1 z)) 4572)))))
+5.35user 0.02system 0:05.37elapsed 100%CPU (0avgtext+0avgdata 44876maxresident)k
+8inputs+0outputs (0major+5824minor)pagefaults 0swaps

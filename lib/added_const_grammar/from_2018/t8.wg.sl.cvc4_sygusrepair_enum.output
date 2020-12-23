@@ -1,0 +1,4 @@
+unsat
+(define-fun f_143-17-143-55 ((x2 Int) (x1 Int) (parentNode Int) (EMPTY_PARENT Int)) Bool (= 0 0))
+0.01user 0.00system 0:00.02elapsed 95%CPU (0avgtext+0avgdata 24636maxresident)k
+8inputs+8outputs (0major+934minor)pagefaults 0swaps

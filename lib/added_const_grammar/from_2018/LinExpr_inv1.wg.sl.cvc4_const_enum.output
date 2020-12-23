@@ -1,0 +1,4 @@
+unsat
+(define-fun inv ((x Int) (y Int)) Int (+ x (+ y (ite (<= x y) y x))))
+4.26user 0.04system 0:04.31elapsed 99%CPU (0avgtext+0avgdata 69944maxresident)k
+0inputs+8outputs (0major+12163minor)pagefaults 0swaps

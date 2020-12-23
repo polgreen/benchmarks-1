@@ -1,0 +1,20 @@
+unsat
+(define-fun findIdx ((y1 Int) (y2 Int) (k1 Int)) Int (ite (<= y1 k1) (ite (<= y2 k1) 2 1) 0))
+61.99user 0.22system 1:02.22elapsed 99%CPU (0avgtext+0avgdata 366124maxresident)k
+0inputs+8outputs (0major+90542minor)pagefaults 0swaps
+unsat
+(define-fun findIdx ((y1 Int) (y2 Int) (k1 Int)) Int (ite (<= y1 k1) (ite (<= y2 k1) 2 1) 0))
+62.04user 0.20system 1:02.25elapsed 99%CPU (0avgtext+0avgdata 366316maxresident)k
+0inputs+0outputs (0major+90544minor)pagefaults 0swaps
+unsat
+(define-fun findIdx ((y1 Int) (y2 Int) (k1 Int)) Int (ite (<= y1 k1) (ite (<= y2 k1) 2 1) 0))
+62.23user 0.17system 1:02.40elapsed 99%CPU (0avgtext+0avgdata 366152maxresident)k
+0inputs+0outputs (0major+90541minor)pagefaults 0swaps
+unsat
+(define-fun findIdx ((y1 Int) (y2 Int) (k1 Int)) Int (ite (<= y1 k1) (ite (<= y2 k1) 2 1) 0))
+63.10user 0.18system 1:03.28elapsed 99%CPU (0avgtext+0avgdata 366168maxresident)k
+0inputs+0outputs (0major+90539minor)pagefaults 0swaps
+unsat
+(define-fun findIdx ((y1 Int) (y2 Int) (k1 Int)) Int (ite (<= y1 k1) (ite (<= y2 k1) 2 1) 0))
+65.05user 0.19system 1:05.25elapsed 99%CPU (0avgtext+0avgdata 366136maxresident)k
+0inputs+0outputs (0major+93355minor)pagefaults 0swaps

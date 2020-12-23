@@ -1,0 +1,5 @@
+241bfdc9964ae26ed6adb204aa2cc6a56c82de53  /home/ubuntu/CVC4/build/bin/cvc4
+unsat
+(define-fun inv ((x Int) (y Int) (l Int)) Bool (or (= (+ (* 0 l) (* 1 l)) 1) (= (+ (* (- 1) x) (* 1 y)) 1)))
+1.01user 0.00system 0:01.02elapsed 100%CPU (0avgtext+0avgdata 34228maxresident)k
+8inputs+0outputs (0major+3270minor)pagefaults 0swaps

@@ -1,0 +1,4 @@
+unsat
+(define-fun inv ((y Int) (z Int) (c Int)) Bool (let ((_let_1 (- 1))) (and (<= (+ (* 0 y) (* _let_1 z)) 0) (<= (+ (* 1 z) (* _let_1 c)) 4572))))
+70.10user 0.11system 1:10.22elapsed 99%CPU (0avgtext+0avgdata 134056maxresident)k
+8inputs+8outputs (0major+28151minor)pagefaults 0swaps

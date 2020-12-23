@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((i0 Bool) (i2 Bool) (i1 Bool)) Bool (and (or i0 i1) (not (and i2 i1))))
+0.04user 0.00system 0:00.04elapsed 100%CPU (0avgtext+0avgdata 26236maxresident)k
+0inputs+8outputs (0major+1319minor)pagefaults 0swaps

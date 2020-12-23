@@ -1,0 +1,4 @@
+unsat
+(define-fun qm-choose ((x Int) (y Int) (z Int)) Int (ite (<= x y) 0 (ite (<= z x) 0 1)))
+23.43user 0.07system 0:23.51elapsed 99%CPU (0avgtext+0avgdata 157264maxresident)k
+0inputs+8outputs (0major+35491minor)pagefaults 0swaps

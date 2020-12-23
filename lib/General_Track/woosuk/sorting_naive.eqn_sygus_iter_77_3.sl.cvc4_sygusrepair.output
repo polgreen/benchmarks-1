@@ -1,0 +1,5 @@
+241bfdc9964ae26ed6adb204aa2cc6a56c82de53  /home/ubuntu/CVC4/build/bin/cvc4
+unsat
+(define-fun skel ((n450 Bool) (n167 Bool) (n268 Bool) (n365 Bool) (n325 Bool)) Bool (and (xor (and n365 n325) (and n167 n268)) (or n450 n450)))
+111.16user 0.04system 1:51.21elapsed 99%CPU (0avgtext+0avgdata 66796maxresident)k
+0inputs+8outputs (0major+11228minor)pagefaults 0swaps

@@ -1,0 +1,12 @@
+unsat
+(define-fun f ((x Int) (y Int)) Int (ite (<= x y) (- x y) (- y x)))
+3.81user 0.02system 0:03.83elapsed 100%CPU (0avgtext+0avgdata 47532maxresident)k
+0inputs+8outputs (0major+6655minor)pagefaults 0swaps
+unsat
+(define-fun f ((x Int) (y Int)) Int (ite (<= x y) (- x y) (- y x)))
+3.84user 0.02system 0:03.86elapsed 100%CPU (0avgtext+0avgdata 47724maxresident)k
+0inputs+0outputs (0major+6662minor)pagefaults 0swaps
+unsat
+(define-fun f ((x Int) (y Int)) Int (ite (<= x y) (- x y) (- y x)))
+3.80user 0.01system 0:03.81elapsed 99%CPU (0avgtext+0avgdata 47748maxresident)k
+0inputs+0outputs (0major+6660minor)pagefaults 0swaps

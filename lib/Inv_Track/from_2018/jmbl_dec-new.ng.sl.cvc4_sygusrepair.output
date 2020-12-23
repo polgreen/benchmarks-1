@@ -1,0 +1,4 @@
+unsat
+(define-fun InvF ((x Int)) Bool (or (>= x 1) (= x 0)))
+0.02user 0.00system 0:00.02elapsed 100%CPU (0avgtext+0avgdata 24972maxresident)k
+0inputs+8outputs (0major+973minor)pagefaults 0swaps

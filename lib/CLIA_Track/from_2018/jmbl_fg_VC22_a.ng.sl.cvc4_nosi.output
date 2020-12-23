@@ -1,0 +1,16 @@
+unsat
+(define-fun f ((x1 Int) (x2 Int)) Int (ite (= x1 x2) 0 1))
+0.02user 0.01system 0:00.04elapsed 100%CPU (0avgtext+0avgdata 25928maxresident)k
+0inputs+8outputs (0major+1234minor)pagefaults 0swaps
+unsat
+(define-fun f ((x1 Int) (x2 Int)) Int (ite (= x1 x2) 0 1))
+0.04user 0.00system 0:00.04elapsed 100%CPU (0avgtext+0avgdata 25756maxresident)k
+0inputs+0outputs (0major+1229minor)pagefaults 0swaps
+unsat
+(define-fun f ((x1 Int) (x2 Int)) Int (ite (= x1 x2) 0 1))
+0.02user 0.01system 0:00.04elapsed 100%CPU (0avgtext+0avgdata 26088maxresident)k
+0inputs+0outputs (0major+1236minor)pagefaults 0swaps
+unsat
+(define-fun f ((x1 Int) (x2 Int)) Int (ite (= x1 x2) 0 1))
+0.03user 0.01system 0:00.04elapsed 100%CPU (0avgtext+0avgdata 26084maxresident)k
+0inputs+0outputs (0major+1236minor)pagefaults 0swaps

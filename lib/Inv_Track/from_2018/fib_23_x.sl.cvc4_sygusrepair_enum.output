@@ -1,0 +1,4 @@
+unsat
+(define-fun inv-f ((i Int) (sum Int) (n Int)) Bool (and (>= sum 0) (>= i 0)))
+5.71user 0.02system 0:05.73elapsed 99%CPU (0avgtext+0avgdata 45260maxresident)k
+8inputs+8outputs (0major+6004minor)pagefaults 0swaps

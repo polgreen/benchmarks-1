@@ -1,0 +1,5 @@
+241bfdc9964ae26ed6adb204aa2cc6a56c82de53  /home/ubuntu/CVC4/build/bin/cvc4
+unsat
+(define-fun f_147-8-147-37 ((yearInt Int)) Bool (< yearInt 2011))
+0.02user 0.00system 0:00.03elapsed 96%CPU (0avgtext+0avgdata 26056maxresident)k
+0inputs+0outputs (0major+1211minor)pagefaults 0swaps

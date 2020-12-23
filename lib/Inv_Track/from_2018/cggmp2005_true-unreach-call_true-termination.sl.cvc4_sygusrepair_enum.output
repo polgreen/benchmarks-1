@@ -1,0 +1,4 @@
+unsat
+(define-fun inv-f ((i Int) (j Int)) Bool (or (and (= i 1) (= j 10)) (and (= i 3) (= j 9)) (and (= i 9) (= j 6)) (and (= i 5) (= j 8)) (and (= i 7) (= j 7))))
+0.01user 0.00system 0:00.01elapsed 94%CPU (0avgtext+0avgdata 24756maxresident)k
+8inputs+8outputs (0major+1002minor)pagefaults 0swaps

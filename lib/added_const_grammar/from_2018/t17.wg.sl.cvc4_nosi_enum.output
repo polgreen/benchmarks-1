@@ -1,0 +1,4 @@
+unsat
+(define-fun f_255-8-255-24 ((j Int) (MC_741360 Int)) Bool (= 0 0))
+0.00user 0.00system 0:00.01elapsed 92%CPU (0avgtext+0avgdata 24092maxresident)k
+0inputs+8outputs (0major+791minor)pagefaults 0swaps

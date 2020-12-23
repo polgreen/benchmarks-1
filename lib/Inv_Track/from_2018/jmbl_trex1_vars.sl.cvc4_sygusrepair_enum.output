@@ -1,0 +1,4 @@
+unsat
+(define-fun InvF ((x Int) (y Int) (z1 Int) (z2 Int) (z3 Int)) Bool (>= x 1))
+0.06user 0.00system 0:00.07elapsed 98%CPU (0avgtext+0avgdata 26604maxresident)k
+8inputs+8outputs (0major+1348minor)pagefaults 0swaps

@@ -1,0 +1,4 @@
+unsat
+(define-fun InvF ((x Int) (y Int) (i Int) (j Int)) Bool (or (not (= y 1)) (= i j)))
+54.31user 0.05system 0:54.37elapsed 99%CPU (0avgtext+0avgdata 100632maxresident)k
+8inputs+8outputs (0major+20115minor)pagefaults 0swaps

@@ -1,0 +1,4 @@
+unsat
+(define-fun str_invariant ((top.usr.beacon Bool) (top.usr.second Bool) (top.usr.OK Bool) (top.res.init_flag Bool) (top.impl.usr.early Bool) (top.res.abs_0 Bool) (top.res.abs_1 Bool) (top.res.inst_6 Bool) (top.res.inst_5 Int) (top.res.inst_4 Int) (top.res.inst_3 Bool) (top.res.inst_2 Bool) (top.res.inst_1 Int) (top.res.inst_0 Bool)) Bool (and top.usr.OK (or (not top.impl.usr.early) (>= top.res.inst_1 1))))
+55.08user 0.06system 0:55.14elapsed 99%CPU (0avgtext+0avgdata 128168maxresident)k
+24inputs+8outputs (0major+26771minor)pagefaults 0swaps

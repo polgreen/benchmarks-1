@@ -1,0 +1,4 @@
+unsat
+(define-fun inv-f ((x Int) (y Int) (w Int) (z Int)) Bool (and (= x y) (= w (+ 1 (* (- 1) z)))))
+0.03user 0.00system 0:00.04elapsed 97%CPU (0avgtext+0avgdata 25908maxresident)k
+0inputs+8outputs (0major+1235minor)pagefaults 0swaps

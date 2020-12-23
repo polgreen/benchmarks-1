@@ -1,0 +1,4 @@
+unsat
+(define-fun InvF ((i Int) (j Int)) Bool (or (and (= i 1) (= j 20)) (and (= i 13) (= j 14)) (and (= i 7) (= j 17)) (and (= i 3) (= j 19)) (and (= i 5) (= j 18)) (and (= i 9) (= j 16)) (and (= i 15) (= j 13)) (and (= i 11) (= j 15))))
+0.02user 0.00system 0:00.02elapsed 100%CPU (0avgtext+0avgdata 25128maxresident)k
+0inputs+8outputs (0major+1064minor)pagefaults 0swaps

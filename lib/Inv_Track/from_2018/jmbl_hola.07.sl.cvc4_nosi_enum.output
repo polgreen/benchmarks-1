@@ -1,0 +1,4 @@
+unsat
+(define-fun InvF ((x Int) (y Int) (i Int) (n Int)) Bool (let ((_let_1 (* (- 1) y))) (and (or (not (>= (+ i (* (- 1) n)) 0)) (= x (+ _let_1 (* 3 n)))) (= x (+ _let_1 (* 3 i))))))
+18.49user 0.11system 0:18.60elapsed 99%CPU (0avgtext+0avgdata 181536maxresident)k
+0inputs+8outputs (0major+41500minor)pagefaults 0swaps

@@ -1,0 +1,4 @@
+unsat
+(define-fun inv-f ((x1 Int) (x2 Int) (x3 Int) (v1 Int) (v2 Int) (v3 Int) (t Int) (RETURN Int)) Bool (let ((_let_1 (* (- 2) v2))) (or (not (= RETURN 0)) (and (not (>= v1 6)) (not (>= (+ v1 _let_1 v3 (* (- 2) t)) 1)) (not (>= (+ x2 (* (- 5) t)) 76)) (not (>= v2 7)) (>= v3 0) (>= v2 (- 6)) (>= (+ x2 (* 5 t)) 75) (>= (+ v1 _let_1 v3 (* 2 t)) 0) (>= (+ v1 (* (- 1) v3)) 0)))))
+0.01user 0.00system 0:00.02elapsed 96%CPU (0avgtext+0avgdata 25440maxresident)k
+0inputs+8outputs (0major+1120minor)pagefaults 0swaps

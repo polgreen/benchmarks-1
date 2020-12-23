@@ -1,0 +1,4 @@
+unsat
+(define-fun inv-f ((n Int) (k Int) (i Int) (j Int)) Bool (and (= i j) (>= k (- 1)) (or (>= (+ n (* (- 1) j)) 0) (not (>= (+ (* 2 n) (* (- 1) k) (* (- 2) j)) 0)))))
+11.27user 0.02system 0:11.29elapsed 99%CPU (0avgtext+0avgdata 58228maxresident)k
+8inputs+8outputs (0major+9237minor)pagefaults 0swaps

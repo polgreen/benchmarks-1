@@ -1,0 +1,4 @@
+unsat
+(define-fun inv-f ((x Int) (y Int)) Bool (or (and (= x 0) (= y 1)) (and (= x 1) (= y 2)) (and (= x 6) (= y 64)) (and (= x 2) (= y 4)) (and (= x 4) (= y 16)) (and (= x 3) (= y 8)) (and (= x 5) (= y 32))))
+0.02user 0.00system 0:00.02elapsed 100%CPU (0avgtext+0avgdata 24816maxresident)k
+0inputs+8outputs (0major+1028minor)pagefaults 0swaps

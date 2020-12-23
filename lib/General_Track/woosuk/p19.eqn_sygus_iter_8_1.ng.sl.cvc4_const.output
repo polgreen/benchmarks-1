@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((n192 Bool) (n113 Bool) (n161 Bool) (n156 Bool)) Bool (and n192 (or (not n156) (and n113 n161))))
+0.08user 0.00system 0:00.09elapsed 100%CPU (0avgtext+0avgdata 27172maxresident)k
+0inputs+8outputs (0major+1549minor)pagefaults 0swaps

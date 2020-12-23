@@ -1,0 +1,4 @@
+unsat
+(define-fun InvF ((x Int) (y Int) (z Int) (v1 Int) (v2 Int) (v3 Int) (size Int)) Bool (or (not (>= size 1)) (not (>= (+ x (* (- 1) size)) 0)) (not (>= (+ y (* (- 1) z)) 1))))
+0.01user 0.00system 0:00.01elapsed 93%CPU (0avgtext+0avgdata 24480maxresident)k
+8inputs+8outputs (0major+933minor)pagefaults 0swaps

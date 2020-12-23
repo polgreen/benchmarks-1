@@ -1,0 +1,5 @@
+241bfdc9964ae26ed6adb204aa2cc6a56c82de53  /home/ubuntu/CVC4/build/bin/cvc4
+unsat
+(define-fun skel ((n177 Bool) (n171 Bool) (n166 Bool)) Bool (or (xor (and n177 n171) n166) (not n166)))
+13.09user 0.01system 0:13.10elapsed 100%CPU (0avgtext+0avgdata 43656maxresident)k
+0inputs+0outputs (0major+5519minor)pagefaults 0swaps

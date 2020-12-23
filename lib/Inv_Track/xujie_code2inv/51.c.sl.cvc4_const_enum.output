@@ -1,0 +1,4 @@
+unsat
+(define-fun inv-f ((c Int) (tmp Int) (c_0 Int) (c_1 Int) (c_2 Int) (c_3 Int) (c_4 Int) (c_5 Int)) Bool (or (not (= c c_2)) (= c_2 4) (not (>= c_2 5))))
+0.00user 0.00system 0:00.01elapsed 92%CPU (0avgtext+0avgdata 24672maxresident)k
+0inputs+8outputs (0major+959minor)pagefaults 0swaps

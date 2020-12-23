@@ -1,0 +1,4 @@
+unsat
+(define-fun inv-f ((n Int) (j Int) (k Int)) Bool (let ((_let_1 (* (- 1) j))) (and (or (>= (+ n _let_1) 1) (>= k 0)) (not (>= (+ n _let_1 (* (- 1) k)) 1)))))
+18.55user 0.02system 0:18.57elapsed 100%CPU (0avgtext+0avgdata 67176maxresident)k
+0inputs+8outputs (0major+11472minor)pagefaults 0swaps

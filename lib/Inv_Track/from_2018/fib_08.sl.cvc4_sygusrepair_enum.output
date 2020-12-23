@@ -1,0 +1,4 @@
+unsat
+(define-fun inv-f ((x Int) (y Int)) Bool (and (or (not (>= x 4)) (>= y 3)) (not (>= (+ x (* (- 1) y)) 1)) (>= x 0)))
+1.67user 0.00system 0:01.68elapsed 99%CPU (0avgtext+0avgdata 38552maxresident)k
+8inputs+8outputs (0major+4339minor)pagefaults 0swaps

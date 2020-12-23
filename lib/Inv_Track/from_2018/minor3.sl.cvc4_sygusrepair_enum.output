@@ -1,0 +1,4 @@
+unsat
+(define-fun inv-f ((x Int) (y Int)) Bool (not (>= y 6)))
+0.00user 0.00system 0:00.01elapsed 100%CPU (0avgtext+0avgdata 24564maxresident)k
+8inputs+8outputs (0major+923minor)pagefaults 0swaps
