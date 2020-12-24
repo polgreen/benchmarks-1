@@ -1,0 +1,4 @@
+unsat
+(define-fun move ((currPoint Int) (o0 Int) (o1 Int)) Int 1)
+7.30user 0.03system 0:07.34elapsed 99%CPU (0avgtext+0avgdata 59672maxresident)k
+48inputs+8outputs (0major+11005minor)pagefaults 0swaps

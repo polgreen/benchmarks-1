@@ -1,0 +1,16 @@
+unsat
+(define-fun qm-foo ((x Int)) Int (ite (<= x 0) 1 0))
+0.00user 0.01system 0:00.02elapsed 100%CPU (0avgtext+0avgdata 24816maxresident)k
+0inputs+8outputs (0major+961minor)pagefaults 0swaps
+unsat
+(define-fun qm-foo ((x Int)) Int (ite (<= x 0) 1 0))
+0.01user 0.00system 0:00.02elapsed 96%CPU (0avgtunsat
+(define-fun qm-foo ((x Int)) Int (ite (<= x 0) 1 0))
+ext+0avgdata 24560maxresident)k
+0inputs+0outputs (0major+953minor)pagefaults 0swaps
+0.02user 0.00system 0:00.02elapsed 100%CPU (0avgtext+0avgdata 24936maxresident)k
+0inputs+0outputs (0major+961minor)pagefaults 0swaps
+unsat
+(define-fun qm-foo ((x Int)) Int (ite (<= x 0) 1 0))
+0.02user 0.00system 0:00.02elapsed 100%CPU (0avgtext+0avgdata 24520maxresident)k
+0inputs+0outputs (0major+954minor)pagefaults 0swaps

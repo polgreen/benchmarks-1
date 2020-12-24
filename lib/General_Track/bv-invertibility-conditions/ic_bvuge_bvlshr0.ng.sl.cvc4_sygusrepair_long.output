@@ -1,0 +1,12 @@
+unsat
+(define-fun SC ((s (_ BitVec 4)) (t (_ BitVec 4))) Bool (not (bvult (bvlshr #b1111 s) t)))
+35.89user 0.03system 0:35.93elapsed 99%CPU (0avgtext+0avgdata 55536maxresident)k
+0inputs+8outputs (0major+8491minor)pagefaults 0swaps
+unsat
+(define-fun SC ((s (_ BitVec 4)) (t (_ BitVec 4))) Bool (not (bvult (bvlshr #b1111 s) t)))
+36.02user 0.02system 0:36.05elapsed 99%CPU (0avgtext+0avgdata 55520maxresident)k
+0inputs+0outputs (0major+8482minor)pagefaults 0swaps
+unsat
+(define-fun SC ((s (_ BitVec 4)) (t (_ BitVec 4))) Bool (not (bvult (bvlshr #b1111 s) t)))
+36.93user 0.04system 0:36.97elapsed 99%CPU (0avgtext+0avgdata 55396maxresident)k
+8inputs+0outputs (0major+11112minor)pagefaults 0swaps

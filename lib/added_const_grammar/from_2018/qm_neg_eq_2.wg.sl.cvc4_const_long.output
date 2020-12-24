@@ -1,0 +1,4 @@
+unsat
+(define-fun qm-foo ((x Int) (y Int)) Int (qm (- (- 1 (qm x 0)) (qm y 0)) 0))
+35.96user 0.18system 0:36.14elapsed 99%CPU (0avgtext+0avgdata 324868maxresident)k
+0inputs+8outputs (0major+80150minor)pagefaults 0swaps

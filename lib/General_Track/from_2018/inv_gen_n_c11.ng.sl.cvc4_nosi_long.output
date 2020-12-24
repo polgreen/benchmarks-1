@@ -1,0 +1,4 @@
+unsat
+(define-fun inv ((i Int) (l Int)) Bool (and (<= 0 l) (<= l (+ 1 (+ 1 (+ 1 1))))))
+206.72user 1.20system 3:27.93elapsed 99%CPU (0avgtext+0avgdata 711852maxresident)k
+0inputs+8outputs (0major+632316minor)pagefaults 0swaps

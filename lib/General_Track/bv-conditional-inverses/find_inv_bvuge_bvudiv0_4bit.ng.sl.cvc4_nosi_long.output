@@ -1,0 +1,20 @@
+unsat
+(define-fun inv ((s (_ BitVec 4)) (t (_ BitVec 4))) (_ BitVec 4) (bvnot #b0000))
+unsat
+(define-fun inv ((s (_ BitVec 4)) (t (_ BitVec 4))) (_ BitVec 4) (bvnot #b0000))
+0.02user 0.00system 0:00.02elapsed 100%CPU (0avgtext+0avgdata 26352maxresident)k
+0inputs+8outputs (0major+1250minor)pagefaults 0swaps
+0.02user 0.00system 0:00.02elapsed 96%CPU (0avgtext+0avgdata 26248maxresident)k
+0inputs+0outputs (0major+1247minor)pagefaults 0swaps
+unsat
+(define-fun inv ((s (_ BitVec 4)) (t (_ BitVec 4))) (_ BitVec 4) (bvnot #b0000))
+0.02user 0.00system 0:00.03elapsed 96%CPU (0avgtext+0avgdata 26152maxresident)k
+0inputs+0outputs (0major+1245minor)pagefaults 0swaps
+unsat
+(define-fun inv ((s (_ BitVec 4)) (t (_ BitVec 4))) (_ BitVec 4) (bvnot #b0000))
+unsat
+(define-fun inv ((s (_ BitVec 4)) (t (_ BitVec 4))) (_ BitVec 4) (bvnot #b0000))
+0.02user 0.00system 0:00.03elapsed 100%CPU (0avgtext+0avgdata 26436maxresident)k
+0inputs+0outputs (0major+1252minor)pagefaults 0swaps
+0.03user 0.00system 0:00.03elapsed 97%CPU (0avgtext+0avgdata 26200maxresident)k
+0inputs+0outputs (0major+1246minor)pagefaults 0swaps

@@ -1,0 +1,4 @@
+unsat
+(define-fun f ((x Int)) Int (let ((_let_1 (= x 1))) (ite (not (= x 3)) (ite (not (= x 2)) (ite (= 0 (ite _let_1 0 x)) (ite (not _let_1) x 10) (ite (= x 4) 40 (ite (= x 5) 50 x))) 20) 30)))
+0.02user 0.01system 0:00.04elapsed 84%CPU (0avgtext+0avgdata 25104maxresident)k
+456inputs+8outputs (2major+1041minor)pagefaults 0swaps

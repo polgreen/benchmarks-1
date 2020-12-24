@@ -1,0 +1,4 @@
+unsat
+(define-fun inv ((x Int) (y Int) (k Int) (z Int) (c Int)) Bool (or (>= (+ k (* (- 1) z)) 1) (>= z 1)))
+0.02user 0.00system 0:00.02elapsed 100%CPU (0avgtext+0avgdata 24472maxresident)k
+0inputs+8outputs (0major+913minor)pagefaults 0swaps

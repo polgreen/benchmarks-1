@@ -1,0 +1,8 @@
+unsat
+(define-fun SC ((s (_ BitVec 4)) (t (_ BitVec 4))) Bool (not (= t #b1000)))
+0.07user 0.00system 0:00.32elapsed 25%CPU (0avgtext+0avgdata 26644maxresident)k
+592inputs+8outputs (13major+1506minor)pagefaults 0swaps
+unsat
+(define-fun SC ((s (_ BitVec 4)) (t (_ BitVec 4))) Bool (not (= t #b1000)))
+0.10user 0.01system 0:00.36elapsed 33%CPU (0avgtext+0avgdata 26976maxresident)k
+368inputs+0outputs (10major+1494minor)pagefaults 0swaps

@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((n201 Bool) (n203 Bool) (n202 Bool) (n188 Bool)) Bool (let ((_let_1 (and n203 n202))) (and n188 (or (and n201 _let_1) (not (or n201 _let_1))))))
+31.83user 0.06system 0:31.90elapsed 99%CPU (0avgtext+0avgdata 75300maxresident)k
+0inputs+8outputs (0major+13557minor)pagefaults 0swaps

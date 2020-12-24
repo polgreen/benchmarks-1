@@ -1,0 +1,4 @@
+unsat
+(define-fun fnd_sum ((y1 Int) (y2 Int)) Int (ite (<= y1 (- 5 y2)) 0 (+ y1 y2)))
+635.77user 0.48system 10:36.28elapsed 99%CPU (0avgtext+0avgdata 533280maxresident)k
+8inputs+8outputs (0major+140434minor)pagefaults 0swaps

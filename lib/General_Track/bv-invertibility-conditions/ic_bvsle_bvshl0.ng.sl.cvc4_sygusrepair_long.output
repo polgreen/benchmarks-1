@@ -1,0 +1,24 @@
+unsat
+(define-fun SC ((s (_ BitVec 4)) (t (_ BitVec 4))) Bool (or (bvult s #b0100) (bvult t #b1000)))
+42.51user 0.04system 0:43.07elapsed 98%CPU (0avgtext+0avgdata 61036maxresident)k
+1000inputs+8outputs (23major+13504minor)pagefaults 0swaps
+unsat
+(define-fun SC ((s (_ BitVec 4)) (t (_ BitVec 4))) Bool (or (bvult s #b0100) (bvult t #b1000)))
+43.07user 0.02system 0:43.61elapsed 98%CPU (0avgtext+0avgdata 60904maxresident)k
+2568inputs+0outputs (22major+14206minor)pagefaults 0swaps
+unsat
+(define-fun SC ((s (_ BitVec 4)) (t (_ BitVec 4))) Bool (or (bvult s #b0100) (bvult t #b1000)))
+43.51user 0.04system 0:44.08elapsed 98%CPU (0avgtext+0avgdata 60856maxresident)k
+328inputs+0outputs (23major+13852minor)pagefaults 0swaps
+unsat
+(define-fun SC ((s (_ BitVec 4)) (t (_ BitVec 4))) Bool (or (bvult s #b0100) (bvult t #b1000)))
+43.76user 0.03system 0:44.31elapsed 98%CPU (0avgtext+0avgdata 60928maxresident)k
+816inputs+0outputs (25major+14232minor)pagefaults 0swaps
+unsat
+(define-fun SC ((s (_ BitVec 4)) (t (_ BitVec 4))) Bool (or (bvult s #b0100) (bvult t #b1000)))
+43.93user 0.05system 0:44.50elapsed 98%CPU (0avgtext+0avgdata 60740maxresident)k
+488inputs+0outputs (25major+17326minor)pagefaults 0swaps
+unsat
+(define-fun SC ((s (_ BitVec 4)) (t (_ BitVec 4))) Bool (or (bvult s #b0100) (bvult t #b1000)))
+44.70user 0.09system 0:45.31elapsed 98%CPU (0avgtext+0avgdata 60708maxresident)k
+400inputs+0outputs (23major+28909minor)pagefaults 0swaps

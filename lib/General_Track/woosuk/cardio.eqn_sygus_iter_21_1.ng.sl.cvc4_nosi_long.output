@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((n292 Bool) (n335 Bool) (n298 Bool) (n307 Bool)) Bool (and (or n307 (and n292 (and n335 n298))) (not (and n292 (and n335 (and n298 n307))))))
+279.52user 0.28system 4:39.81elapsed 99%CPU (0avgtext+0avgdata 402892maxresident)k
+0inputs+8outputs (0major+99729minor)pagefaults 0swaps

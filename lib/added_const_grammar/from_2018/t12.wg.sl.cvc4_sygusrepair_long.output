@@ -1,0 +1,4 @@
+unsat
+(define-fun f_29-21-29-36 ((pair.length Int)) Bool (>= 0 0))
+0.01user 0.00system 0:00.01elapsed 94%CPU (0avgtext+0avgdata 24104maxresident)k
+16inputs+8outputs (0major+788minor)pagefaults 0swaps

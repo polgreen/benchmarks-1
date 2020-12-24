@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((n376 Bool) (n378 Bool) (n371 Bool) (n373 Bool) (i_17 Bool)) Bool (and n376 (and n378 (and i_17 (and (or n371 n373) (not (and n371 n373)))))))
+260.15user 0.24system 4:20.43elapsed 99%CPU (0avgtext+0avgdata 394632maxresident)k
+8inputs+8outputs (0major+101337minor)pagefaults 0swaps

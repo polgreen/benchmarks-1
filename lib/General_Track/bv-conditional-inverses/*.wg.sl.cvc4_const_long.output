@@ -1,0 +1,20 @@
+(error "Couldn't open file: *.wg.sl")
+(error "Couldn't open file: *.wg.sl")
+Command exited with non-zero status 1
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 13000maxresident)k
+0inputs+8outputs (0major+423minor)pagefaults 0swaps
+Command exited with non-zero status 1
+0.00user 0.00sy(error "sCouldn't open file: *.wg.slt")em
+ 0:00.00elapsed 100%CPU (0avgtext+0avgdata 13216maxresident)k
+0inputs+0outputs (0major+426minor)pagefaults 0swaps
+Command exited with non-zero status 1
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 13096maxresident)k
+0inputs+0outputs (0major+424minor)pagefaults 0swaps
+(error "Couldn't open file: *.wg.sl")
+(error "Couldn't open file: *.wg.sl")
+Command exited with non-zero status 1
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 12932maxresident)k
+0inputs+0outputs (0major+423minor)pagefauCommand exited with non-zero status 1
+lts0.00 u0ssewra p0.00ss
+ystem 0:00.00elapsed 100%CPU (0avgtext+0avgdata 13096maxresident)k
+0inputs+0outputs (0major+424minor)pagefaults 0swaps

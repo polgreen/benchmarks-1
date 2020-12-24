@@ -1,0 +1,4 @@
+unsat
+(define-fun constant ((x Int)) Int 0)
+0.00user 0.00system 0:00.01elapsed 92%CPU (0avgtext+0avgdata 23924maxresident)k
+40inputs+8outputs (0major+748minor)pagefaults 0swaps

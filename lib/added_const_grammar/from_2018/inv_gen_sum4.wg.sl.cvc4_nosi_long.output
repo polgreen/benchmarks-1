@@ -1,0 +1,4 @@
+unsat
+(define-fun inv ((s Int) (i Int)) Bool (and (= (+ (* 1 i) (* (- 1) s)) 1) (<= (+ (* 0 s) (* 1 s)) 8)))
+1.81user 0.01system 0:01.83elapsed 99%CPU (0avgtext+0avgdata 44480maxresident)k
+0inputs+8outputs (0major+5881minor)pagefaults 0swaps

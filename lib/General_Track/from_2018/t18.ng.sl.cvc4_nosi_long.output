@@ -1,0 +1,4 @@
+unsat
+(define-fun f_338-17-338-60 ((entry Int) (MC_505948 Int) (i Int) (MC_741360 Int)) Bool (= entry 1))
+0.17user 0.00system 0:00.17elapsed 99%CPU (0avgtext+0avgdata 26276maxresident)k
+0inputs+8outputs (0major+1428minor)pagefaults 0swaps

@@ -1,0 +1,4 @@
+unsat
+(define-fun f_97-11-98-60 ((charno Int) (MC_505948 Int) (MC_741360 Bool)) Bool true)
+0.00user 0.00system 0:00.01elapsed 100%CPU (0avgtext+0avgdata 23836maxresident)k
+0inputs+8outputs (0major+772minor)pagefaults 0swaps

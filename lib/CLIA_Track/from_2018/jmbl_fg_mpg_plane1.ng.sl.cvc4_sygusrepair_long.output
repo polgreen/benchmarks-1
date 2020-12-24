@@ -1,0 +1,4 @@
+unsat
+(define-fun eq_1 ((x Int) (y Int) (z Int)) Int (+ x (+ y 0)))
+0.06user 0.00system 0:00.08elapsed 89%CPU (0avgtext+0avgdata 25504maxresident)k
+8inputs+8outputs (0major+1146minor)pagefaults 0swaps

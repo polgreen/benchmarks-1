@@ -1,0 +1,4 @@
+unsat
+(define-fun NAND ((a Bool) (b Bool) (c Bool) (d Bool)) Bool (or (and b c) (not (and (or b c) (or (and a d) (not (or a d)))))))
+542.92user 1.24system 9:09.30elapsed 99%CPU (0avgtext+0avgdata 606212maxresident)k
+37552inputs+8outputs (225major+424192minor)pagefaults 0swaps

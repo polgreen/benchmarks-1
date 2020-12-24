@@ -1,0 +1,6 @@
+Command terminated by signal 9
+716.44user 105.47system 29:06.57elapsed 47%CPU (0avgtext+0avgdata 10031768maxresident)k
+3963552inputs+0outputs (34200major+5187666minor)pagefaults 0swaps
+CVC4 interrupted by SIGTERM.
+CVC4 interrupted by SIGTERM.
+CVC4 interrupted by SIGTERM.

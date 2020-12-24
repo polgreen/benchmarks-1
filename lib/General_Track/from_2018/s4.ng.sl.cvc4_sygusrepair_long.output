@@ -1,0 +1,6 @@
+unsat
+(define-fun f1 ((x Int) (y Int) (z Int)) Int x)
+(define-fun f2 ((x Int) (y Int) (z Int)) Int y)
+(define-fun f3 ((x Int) (y Int) (z Int)) Int z)
+0.13user 0.00system 0:00.14elapsed 99%CPU (0avgtext+0avgdata 26708maxresident)k
+8inputs+8outputs (0major+1452minor)pagefaults 0swaps

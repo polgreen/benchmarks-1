@@ -1,0 +1,4 @@
+unsat
+(define-fun f_147-8-147-37 ((yearInt Int)) Bool (<= 0 0))
+0.03user 0.00system 0:00.03elapsed 97%CPU (0avgtext+0avgdata 25528maxresident)k
+0inputs+8outputs (0major+1085minor)pagefaults 0swaps

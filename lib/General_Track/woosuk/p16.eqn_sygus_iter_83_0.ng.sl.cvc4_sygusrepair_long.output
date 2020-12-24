@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((n207 Bool) (n254 Bool) (n325 Bool) (n208 Bool)) Bool (and n208 (or (and n207 (and n254 n325)) (not (or n325 (and n207 n254))))))
+31.54user 0.04system 0:31.60elapsed 99%CPU (0avgtext+0avgdata 75024maxresident)k
+8inputs+8outputs (0major+13547minor)pagefaults 0swaps

@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((n386 Bool) (n389 Bool) (n393 Bool) (n388 Bool) (i_7 Bool)) Bool (and n393 (and i_7 (and (or n386 n389) (not (or n388 (and n386 n389)))))))
+279.55user 0.32system 4:39.88elapsed 99%CPU (0avgtext+0avgdata 450472maxresident)k
+8inputs+8outputs (0major+180284minor)pagefaults 0swaps

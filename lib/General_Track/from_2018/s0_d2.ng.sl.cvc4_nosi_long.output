@@ -1,0 +1,4 @@
+unsat
+(define-fun f ((x Int)) Int (let ((_let_1 (+ 1 (+ 1 (+ 1 (+ 1 1)))))) (let ((_let_2 (+ 1 _let_1))) (let ((_let_3 (+ 1 _let_2))) (let ((_let_4 (+ 1 _let_3))) (ite (<= x (+ 1 _let_4)) (ite (<= x _let_4) (ite (<= x _let_3) (ite (<= x _let_2) (ite (<= x _let_1) (+ x (+ x (+ x (+ x (+ x (+ x (+ x (+ x (+ x x))))))))) x) x) x) x) x))))))
+516.42user 13.62system 11:29.89elapsed 76%CPU (0avgtext+0avgdata 227300maxresident)k
+1134064inputs+8outputs (7692major+144504minor)pagefaults 0swaps

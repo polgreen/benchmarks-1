@@ -1,0 +1,4 @@
+unsat
+(define-fun SC ((s (_ BitVec 4)) (t (_ BitVec 4))) Bool (bvult (bvmul s (bvashr t s)) #b1000))
+781.84user 67.03system 27:27.27elapsed 51%CPU (0avgtext+0avgdata 6396988maxresident)k
+4011504inputs+8outputs (28137major+7196671minor)pagefaults 0swaps

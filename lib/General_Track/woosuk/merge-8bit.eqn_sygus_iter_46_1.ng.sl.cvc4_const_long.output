@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((n118 Bool) (n107 Bool) (i_13 Bool) (n117 Bool)) Bool (let ((_let_1 (and n107 i_13))) (and n117 (and (or n118 _let_1) (not (and n118 _let_1))))))
+31.47user 0.04system 0:31.52elapsed 99%CPU (0avgtext+0avgdata 75208maxresident)k
+0inputs+8outputs (0major+13550minor)pagefaults 0swaps

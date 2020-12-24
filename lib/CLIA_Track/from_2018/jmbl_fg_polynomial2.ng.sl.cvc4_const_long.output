@@ -1,0 +1,5 @@
+unsat
+(define-fun add_expr_1 ((x Int) (y Int)) Int (- 0 y))
+(define-fun add_expr_2 ((x Int) (y Int)) Int y)
+0.16user 0.00system 0:00.17elapsed 99%CPU (0avgtext+0avgdata 26648maxresident)k
+0inputs+8outputs (0major+1411minor)pagefaults 0swaps

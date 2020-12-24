@@ -1,0 +1,4 @@
+unsat
+(define-fun max2 ((x Int) (y Int)) Int (+ 0 (ite (<= x y) y x)))
+3.71user 0.02system 0:03.73elapsed 100%CPU (0avgtext+0avgdata 39052maxresident)k
+8inputs+8outputs (0major+4540minor)pagefaults 0swaps

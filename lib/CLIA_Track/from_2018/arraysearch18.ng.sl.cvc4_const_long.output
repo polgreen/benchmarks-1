@@ -1,0 +1,10 @@
+Command terminated by signal 9
+696.37user 48.93system 25:13.06elapsed 49%CPU (0avgtext+0avgdata 9916012maxresident)k
+4084200inputs+0outputs (29538major+3718550minor)pagefaults 0swaps
+Command terminated by signal 9
+701.22user 73.28system 29:21.36elapsed 43%CPU (0avgtext+0avgdata 9799892maxresident)k
+5613832inputs+0outputs (39230major+4733052minor)pagefaults 0swaps
+Command terminated by signal 9
+657.37user 93.90system 26:06.94elapsed 47%CPU (0avgtext+0avgdata 9485524maxresident)k
+3704976inputs+0outputs (31013major+4311950minor)pagefaults 0swaps
+CVC4 interrupted by SIGTERM.

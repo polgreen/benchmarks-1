@@ -1,0 +1,4 @@
+unsat
+(define-fun findIdx ((y1 Int) (y2 Int) (k1 Int)) Int (+ (ite (<= y1 k1) 1 0) (ite (<= y2 k1) 1 0)))
+284.20user 2.53system 4:46.75elapsed 99%CPU (0avgtext+0avgdata 2590832maxresident)k
+8inputs+8outputs (0major+849451minor)pagefaults 0swaps

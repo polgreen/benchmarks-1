@@ -1,0 +1,4 @@
+unsat
+(define-fun f_31-12-31-30 ((newLength Int) (offset Int)) Bool (> 0 (- 1)))
+0.03user 0.00system 0:00.06elapsed 69%CPU (0avgtext+0avgdata 26672maxresident)k
+32inputs+8outputs (0major+1327minor)pagefaults 0swaps

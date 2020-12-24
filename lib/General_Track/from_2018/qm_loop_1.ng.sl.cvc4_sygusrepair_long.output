@@ -1,0 +1,4 @@
+unsat
+(define-fun qm-loop ((x Int)) Int (+ (- 1) (ite (<= x 0) 4 x)))
+0.37user 0.01system 0:00.69elapsed 55%CPU (0avgtext+0avgdata 28248maxresident)k
+11232inputs+8outputs (47major+1850minor)pagefaults 0swaps

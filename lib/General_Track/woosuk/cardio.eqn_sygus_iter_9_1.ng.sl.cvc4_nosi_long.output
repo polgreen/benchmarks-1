@@ -1,0 +1,8 @@
+unsat
+(define-fun skel ((n265 Bool) (n260 Bool) (n256 Bool) (n252 Bool)) Bool (and (not n265) (or n260 (and (or n256 n252) (not (and n256 n252))))))
+10.41user 0.01system 0:10.42elapsed 99%CPU (0avgtext+0avgdata 46728maxresident)k
+0inputs+8outputs (0major+6381minor)pagefaults 0swaps
+unsat
+(define-fun skel ((n265 Bool) (n260 Bool) (n256 Bool) (n252 Bool)) Bool (and (not n265) (or n260 (and (or n256 n252) (not (and n256 n252))))))
+10.62user 0.02system 0:10.64elapsed 99%CPU (0avgtext+0avgdata 46312maxresident)k
+0inputs+0outputs (0major+8073minor)pagefaults 0swaps

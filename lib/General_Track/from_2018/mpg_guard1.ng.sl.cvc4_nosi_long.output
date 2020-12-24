@@ -1,0 +1,4 @@
+unsat
+(define-fun eq1 ((x Int) (y Int) (z Int)) Int (let ((_let_1 (- 0 y))) (- x (ite (<= x _let_1) y _let_1))))
+74.70user 0.76system 1:15.83elapsed 99%CPU (0avgtext+0avgdata 733656maxresident)k
+2112inputs+8outputs (18major+234410minor)pagefaults 0swaps

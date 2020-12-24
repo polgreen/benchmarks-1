@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((n150 Bool) (n158 Bool) (n177 Bool) (n171 Bool) (n166 Bool)) Bool (let ((_let_1 (and n171 n166))) (and (not (and n177 _let_1)) (or (and n150 n158) _let_1))))
+414.12user 0.95system 6:55.08elapsed 99%CPU (0avgtext+0avgdata 672272maxresident)k
+0inputs+8outputs (0major+172716minor)pagefaults 0swaps

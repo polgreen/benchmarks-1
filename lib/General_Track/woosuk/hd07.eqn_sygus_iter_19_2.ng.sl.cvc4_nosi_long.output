@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((i16 Bool) (i15 Bool) (i14 Bool)) Bool (or (and i16 i15) (not (or i15 i14))))
+0.02user 0.01system 0:00.03elapsed 100%CPU (0avgtext+0avgdata 26352maxresident)k
+0inputs+8outputs (0major+1287minor)pagefaults 0swaps

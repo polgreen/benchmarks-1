@@ -1,0 +1,8 @@
+unsat
+(define-fun f ((x (_ BitVec 32))) (_ BitVec 32) (bvxor x (bvsub x #b00000000000000000000000000000001)))
+unsat
+(define-fun f ((x (_ BitVec 32))) (_ BitVec 32) (bvxor x (bvsub x #b00000000000000000000000000000001)))
+0.26user 0.00system 0:00.82elapsed 33%CPU (0avgtext+0avgdata 31308maxresident)k
+7680inputs+8outputs (42major+2451minor)pagefaults 0swaps
+0.26user 0.00system 0:00.82elapsed 33%CPU (0avgtext+0avgdata 30892maxresident)k
+3360inputs+0outputs (36major+2447minor)pagefaults 0swaps

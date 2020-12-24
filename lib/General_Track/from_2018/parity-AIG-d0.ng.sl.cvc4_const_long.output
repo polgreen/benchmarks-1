@@ -1,0 +1,4 @@
+unsat
+(define-fun AIG ((a Bool) (b Bool) (c Bool) (d Bool)) Bool (or (and (or a b) (not (and a b))) (and (or c d) (not (and c d)))))
+734.08user 18.41system 20:04.17elapsed 62%CPU (0avgtext+0avgdata 1056316maxresident)k
+2884416inputs+8outputs (17479major+662627minor)pagefaults 0swaps

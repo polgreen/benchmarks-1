@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((n327 Bool) (n325 Bool) (n254 Bool) (n207 Bool)) Bool (let ((_let_1 (and n254 n207))) (and n327 (or (and n325 _let_1) (not (or n325 _let_1))))))
+28.90user 0.01system 0:28.93elapsed 99%CPU (0avgtext+0avgdata 69644maxresident)k
+8inputs+8outputs (0major+12156minor)pagefaults 0swaps

@@ -1,0 +1,4 @@
+unsat
+(define-fun f_122-16-122-32 ((this.y Int) (this.x Int) (y Int) (x Int)) Bool (or (not (= y 3)) (not (= x 1)) (not (= this.y 2)) (not (= this.x 1))))
+0.01user 0.00system 0:00.01elapsed 100%CPU (0avgtext+0avgdata 24328maxresident)k
+16inputs+8outputs (0major+890minor)pagefaults 0swaps

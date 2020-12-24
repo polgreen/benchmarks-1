@@ -1,0 +1,4 @@
+unsat
+(define-fun eq1 ((x Int) (y Int) (z Int)) Int (ite (<= x (- 0 y)) (- x y) (+ x y)))
+341.53user 15.13system 9:51.24elapsed 60%CPU (0avgtext+0avgdata 3889916maxresident)k
+1480888inputs+8outputs (9124major+1647397minor)pagefaults 0swaps
