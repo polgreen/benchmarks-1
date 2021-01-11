@@ -1,0 +1,4 @@
+unsat
+(define-fun f ((x Int) (y Int)) Int (ite (<= y x) y x))
+1.34user 0.01system 0:01.36elapsed 99%CPU (0avgtext+0avgdata 35508maxresident)k
+8inputs+8outputs (0major+3540minor)pagefaults 0swaps

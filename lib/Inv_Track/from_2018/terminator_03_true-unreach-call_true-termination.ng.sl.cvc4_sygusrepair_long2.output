@@ -1,0 +1,4 @@
+unsat
+(define-fun inv-f ((x Int) (y Int)) Bool true)
+0.00user 0.00system 0:00.01elapsed 92%CPU (0avgtext+0avgdata 24292maxresident)k
+8inputs+8outputs (0major+897minor)pagefaults 0swaps

@@ -1,0 +1,12 @@
+(error "Couldn't open file: *.ng.sl")
+(error "Couldn't open file: *.ng.sl")
+(error "Couldn't open file: *.ng.sl")
+Command exited with non-zero status 1
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 13216maxresident)k
+0inputs+8outputs Command exited with non-zero status 1
+(0major0.00+u426smeirn o0.00rs)ypsatgeemf a0:00.00uelltasp s0esdw a100%pCsP
+U (0avgtext+0avgdata 12948maxresident)k
+0inputs+0outputs (0major+423minor)pagefaults 0swaps
+Command exited with non-zero status 1
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 12820maxresident)k
+0inputs+0outputs (0major+419minor)pagefaults 0swaps

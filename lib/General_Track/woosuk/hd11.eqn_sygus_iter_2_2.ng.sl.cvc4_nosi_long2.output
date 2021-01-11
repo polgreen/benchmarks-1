@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((i_14 Bool) (i_15 Bool) (i_13 Bool) (i_12 Bool)) Bool (and (and (and i_13 i_12) i_15) i_14))
+1.44user 0.00system 0:01.45elapsed 99%CPU (0avgtext+0avgdata 32356maxresident)k
+0inputs+8outputs (0major+2752minor)pagefaults 0swaps

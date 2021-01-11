@@ -1,0 +1,4 @@
+unsat
+(define-fun inv-f ((i Int) (j Int) (i_0 Int) (i_1 Int) (i_2 Int) (i_3 Int) (j_0 Int) (j_1 Int) (j_2 Int) (j_3 Int)) Bool (and (or (not (= i i_2)) (not (= j j_2)) (not (>= (+ i_2 (* (- 1) j_2)) 1)) (= j_2 13)) (= i (+ 41 (* (- 2) j)))))
+217.68user 0.07system 3:37.76elapsed 99%CPU (0avgtext+0avgdata 148364maxresident)k
+8inputs+8outputs (0major+31702minor)pagefaults 0swaps

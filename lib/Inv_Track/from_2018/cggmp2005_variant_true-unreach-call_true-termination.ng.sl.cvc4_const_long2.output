@@ -1,0 +1,4 @@
+unsat
+(define-fun inv-f ((lo Int) (mid Int) (hi Int)) Bool (and (or (>= mid 1) (= lo hi)) (= lo (+ (* (- 2) mid) hi))))
+2.50user 0.00system 0:02.51elapsed 99%CPU (0avgtext+0avgdata 33932maxresident)k
+0inputs+8outputs (0major+3122minor)pagefaults 0swaps

@@ -1,0 +1,4 @@
+unsat
+(define-fun comm ((x Int) (y Int)) Int 0)
+0.01user 0.00system 0:00.01elapsed 94%CPU (0avgtext+0avgdata 24900maxresident)k
+8inputs+8outputs (0major+957minor)pagefaults 0swaps

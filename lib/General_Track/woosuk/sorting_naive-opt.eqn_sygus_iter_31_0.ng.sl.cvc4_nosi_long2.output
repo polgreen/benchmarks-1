@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((n226 Bool) (n120 Bool) (n217 Bool) (n168 Bool) (i_33 Bool)) Bool (and (and (and (and (not n217) (not n120)) (not n168)) i_33) n226))
+330.97user 0.09system 5:31.07elapsed 99%CPU (0avgtext+0avgdata 85460maxresident)k
+0inputs+8outputs (0major+16076minor)pagefaults 0swaps

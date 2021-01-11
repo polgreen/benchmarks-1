@@ -1,0 +1,4 @@
+unsat
+(define-fun f ((x Int) (y Int)) Int (- 1))
+0.02user 0.00system 0:00.03elapsed 87%CPU (0avgtext+0avgdata 25832maxresident)k
+16inputs+8outputs (0major+1092minor)pagefaults 0swaps

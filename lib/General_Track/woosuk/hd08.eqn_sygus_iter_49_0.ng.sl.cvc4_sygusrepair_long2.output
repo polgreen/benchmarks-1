@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((n199 Bool) (n187 Bool) (n183 Bool) (n178 Bool)) Bool (or (and (or (not n178) (not n183)) (not n187)) (and (and (not n199) n183) n178)))
+245.92user 0.05system 4:05.99elapsed 99%CPU (0avgtext+0avgdata 69200maxresident)k
+8inputs+8outputs (0major+12014minor)pagefaults 0swaps

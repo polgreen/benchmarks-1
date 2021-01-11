@@ -1,0 +1,8 @@
+unsat
+(define-fun f ((x1 Int) (x2 Int)) Int (ite (= x1 x2) 0 1))
+2.03user 0.00system 0:02.04elapsed 99%CPU (0avgtext+0avgdata 37896maxresident)k
+8inputs+8outputs (0major+4166minor)pagefaults 0swaps
+unsat
+(define-fun f ((x1 Int) (x2 Int)) Int (ite (= x1 x2) 0 1))
+2.70user 0.00system 0:02.71elapsed 99%CPU (0avgtext+0avgdata 37972maxresident)k
+0inputs+0outputs (0major+4168minor)pagefaults 0swaps

@@ -1,0 +1,33 @@
+unsat
+(define-fun f1 ((p1 Int) (P1 Int)) Int 0)
+(define-fun f2 ((p1 Int) (P1 Int)) Int 0)
+(define-fun f3 ((p1 Int) (P1 Int)) Int (- 0 P1))
+(define-fun f4 ((p1 Int) (P1 Int)) Int 0)
+(define-fun f5 ((p1 Int) (P1 Int)) Int 0)
+(define-fun g1 ((p1 Int) (P1 Int)) Int (- 0 P1))
+(define-fun g2 ((p1 Int) (P1 Int)) Int (- 1 P1))
+(define-fun g3 ((p1 Int) (P1 Int)) Int (- (+ 1 1) P1))
+202.98user 0.08system 3:23.42elapsed 99%CPU (0avgtext+0avgdata 88576maxresident)k
+760inputs+8outputs (19major+32801minor)pagefaults 0swaps
+unsat
+(define-fun f1 ((p1 Int) (P1 Int)) Int 0)
+(define-fun f2 ((p1 Int) (P1 Int)) Int 0)
+(define-fun f3 ((p1 Int) (P1 Int)) Int (- 0 P1))
+(define-fun f4 ((p1 Int) (P1 Int)) Int 0)
+(define-fun f5 ((p1 Int) (P1 Int)) Int 0)
+(define-fun g1 ((p1 Int) (P1 Int)) Int (- 0 P1))
+(define-fun g2 ((p1 Int) (P1 Int)) Int (- 1 P1))
+(define-fun g3 ((p1 Int) (P1 Int)) Int (- (+ 1 1) P1))
+207.46user 0.06system 3:27.89elapsed 99%CPU (0avgtext+0avgdata 88876maxresident)k
+416inputs+0outputs (19major+38197minor)pagefaults 0swaps
+unsat
+(define-fun f1 ((p1 Int) (P1 Int)) Int 0)
+(define-fun f2 ((p1 Int) (P1 Int)) Int 0)
+(define-fun f3 ((p1 Int) (P1 Int)) Int (- 0 P1))
+(define-fun f4 ((p1 Int) (P1 Int)) Int 0)
+(define-fun f5 ((p1 Int) (P1 Int)) Int 0)
+(define-fun g1 ((p1 Int) (P1 Int)) Int (- 0 P1))
+(define-fun g2 ((p1 Int) (P1 Int)) Int (- 1 P1))
+(define-fun g3 ((p1 Int) (P1 Int)) Int (- (+ 1 1) P1))
+210.23user 0.08system 3:30.68elapsed 99%CPU (0avgtext+0avgdata 88548maxresident)k
+3544inputs+0outputs (36major+38229minor)pagefaults 0swaps

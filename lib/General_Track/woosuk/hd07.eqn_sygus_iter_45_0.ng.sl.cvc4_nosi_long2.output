@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((n254 Bool) (n270 Bool) (n277 Bool) (n232 Bool) (i30 Bool)) Bool (and (or (or (or (not n277) (not n270)) (not n232)) (not n254)) i30))
+161.92user 0.08system 2:42.01elapsed 99%CPU (0avgtext+0avgdata 104876maxresident)k
+0inputs+8outputs (0major+22210minor)pagefaults 0swaps

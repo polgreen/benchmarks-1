@@ -1,0 +1,4 @@
+unsat
+(define-fun InvF ((x Int) (y Int)) Bool (and (or (not (>= y 100000)) (>= (+ x (* (- 1) y)) 0)) (>= x 1) (>= y 0)))
+11.45user 0.02system 0:11.48elapsed 99%CPU (0avgtext+0avgdata 51728maxresident)k
+0inputs+8outputs (0major+7606minor)pagefaults 0swaps

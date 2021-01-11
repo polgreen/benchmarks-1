@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((i22 Bool) (i21 Bool) (i20 Bool)) Bool (or (and (not i20) (not i21)) (and i21 i22)))
+0.91user 0.00system 0:00.91elapsed 100%CPU (0avgtext+0avgdata 31772maxresident)k
+0inputs+8outputs (0major+2667minor)pagefaults 0swaps

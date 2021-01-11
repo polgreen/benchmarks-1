@@ -1,0 +1,4 @@
+unsat
+(define-fun f ((x (_ BitVec 64))) (_ BitVec 64) (if0 (bvand #b0000000000000000000000000000000000000000000000000000000000000001 (shr4 (shr1 x))) (bvand #b0000000000000000000000000000000000000000000000000000000000000001 x) (shr16 (shr4 x))))
+0.48user 0.01system 0:00.50elapsed 99%CPU (0avgtext+0avgdata 44068maxresident)k
+0inputs+8outputs (0major+5671minor)pagefaults 0swaps

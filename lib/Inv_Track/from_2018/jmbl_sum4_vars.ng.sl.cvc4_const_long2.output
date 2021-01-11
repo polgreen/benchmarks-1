@@ -1,0 +1,4 @@
+unsat
+(define-fun InvF ((i Int) (sn Int) (size Int) (v1 Int) (v2 Int) (v3 Int)) Bool (and (or (not (>= (+ i (* (- 1) size)) 1)) (= sn size) (= sn 0)) (= i (+ 1 sn))))
+1.29user 0.01system 0:01.31elapsed 99%CPU (0avgtext+0avgdata 33028maxresident)k
+0inputs+8outputs (0major+2970minor)pagefaults 0swaps

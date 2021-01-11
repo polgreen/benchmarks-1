@@ -1,0 +1,4 @@
+unsat
+(define-fun inv ((x Int) (y Int) (z Int)) Bool (or (<= (+ (* 0 z) (* 1 x)) 100) (<= (+ (* (- 1) z) (* 1 y)) (- 101))))
+0.04user 0.00system 0:00.05elapsed 98%CPU (0avgtext+0avgdata 27072maxresident)k
+8inputs+8outputs (0major+1422minor)pagefaults 0swaps

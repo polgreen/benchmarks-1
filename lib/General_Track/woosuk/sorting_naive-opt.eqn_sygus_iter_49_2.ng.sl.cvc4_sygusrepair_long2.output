@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((n322 Bool) (n325 Bool) (n315 Bool) (n319 Bool) (i_18 Bool)) Bool (and (and (and (and (or (not n319) n315) (or (not n315) n319)) n322) i_18) n325))
+1589.01user 0.45system 26:29.55elapsed 99%CPU (0avgtext+0avgdata 421476maxresident)k
+8inputs+8outputs (0major+137224minor)pagefaults 0swaps

@@ -1,0 +1,4 @@
+unsat
+(define-fun str_invariant ((top.usr.OK Bool) (top.res.init_flag Bool) (top.impl.usr.a Bool) (top.impl.usr.b Bool) (top.impl.usr.c Bool)) Bool (let ((_let_1 (not top.impl.usr.c))) (let ((_let_2 (not top.impl.usr.b))) (and top.usr.OK (or (and _let_2 _let_1) (and (not top.impl.usr.a) (or _let_2 _let_1)))))))
+734.65user 0.23system 12:14.92elapsed 99%CPU (0avgtext+0avgdata 206408maxresident)k
+0inputs+8outputs (0major+64557minor)pagefaults 0swaps

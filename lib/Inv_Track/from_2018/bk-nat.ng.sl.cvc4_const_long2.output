@@ -1,0 +1,4 @@
+unsat
+(define-fun inv-f ((invalid Int) (unowned Int) (nonexclusive Int) (exclusive Int) (RETURN Int)) Bool (or (not (= RETURN 0)) (and (>= exclusive 0) (>= nonexclusive 0) (>= unowned 0) (>= invalid 0) (>= (+ invalid unowned exclusive) 1))))
+0.02user 0.00system 0:00.02elapsed 100%CPU (0avgtext+0avgdata 24792maxresident)k
+0inputs+8outputs (0major+1022minor)pagefaults 0swaps

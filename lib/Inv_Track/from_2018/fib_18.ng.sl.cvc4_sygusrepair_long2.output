@@ -1,0 +1,4 @@
+unsat
+(define-fun inv-f ((b Int) (j Int) (n Int) (flag Int)) Bool (or (not (= flag 1)) (and (= b j) (or (= j n) (not (>= (+ j (* (- 1) n)) 0))))))
+346.33user 0.25system 5:46.62elapsed 99%CPU (0avgtext+0avgdata 290248maxresident)k
+8inputs+8outputs (0major+74111minor)pagefaults 0swaps

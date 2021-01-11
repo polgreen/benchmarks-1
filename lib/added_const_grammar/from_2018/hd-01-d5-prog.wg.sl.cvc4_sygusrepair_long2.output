@@ -1,0 +1,4 @@
+unsat
+(define-fun f ((x (_ BitVec 32))) (_ BitVec 32) (bvand x (bvadd x #b11111111111111111111111111111111)))
+199.14user 0.50system 3:19.68elapsed 99%CPU (0avgtext+0avgdata 872532maxresident)k
+8inputs+8outputs (0major+238829minor)pagefaults 0swaps

@@ -1,0 +1,4 @@
+unsat
+(define-fun move ((currPoint Int) (o0 Int) (o1 Int)) Int (ite (= currPoint 0) (+ 1 1) 1))
+102.53user 0.02system 1:42.57elapsed 99%CPU (0avgtext+0avgdata 71964maxresident)k
+0inputs+8outputs (0major+12719minor)pagefaults 0swaps

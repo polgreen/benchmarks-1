@@ -1,0 +1,4 @@
+unsat
+(define-fun f_122-16-122-32 ((this.y Int) (this.x Int) (y Int) (x Int)) Bool (= y this.y))
+0.04user 0.00system 0:00.04elapsed 97%CPU (0avgtext+0avgdata 26020maxresident)k
+0inputs+8outputs (0major+1142minor)pagefaults 0swaps

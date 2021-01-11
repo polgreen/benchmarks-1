@@ -1,0 +1,12 @@
+unsat
+(define-fun inv ((s (_ BitVec 4)) (t (_ BitVec 4))) (_ BitVec 4) t)
+unsat
+(define-fun inv ((s (_ BitVec 4)) (t (_ BitVec 4))) (_ BitVec 4) t)
+unsat
+(define-fun inv ((s (_ BitVec 4)) (t (_ BitVec 4))) (_ BitVec 4) t)
+0.03user 0.00system 0:00.03elapsed 100%CPU (0avgtext+0avgdata 26144maxresident)k
+0inputs+8outputs (0major+1248minor)pagefaults 0swaps
+0.02user 0.00system 0:00.03elapsed 97%CPU (0avgtext+0avgdata 26108maxresident)k
+8inputs+0outputs (0major+1294min0.03ours)epra g0.00esfyasutletms  0:00.030eslwaappsse
+d 100%CPU (0avgtext+0avgdata 26024maxresident)k
+0inputs+0outputs (0major+1292minor)pagefaults 0swaps

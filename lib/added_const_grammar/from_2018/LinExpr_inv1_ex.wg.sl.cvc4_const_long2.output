@@ -1,0 +1,4 @@
+unsat
+(define-fun inv ((x Int) (y Int)) Int (ite (= x 1) 3 (ite (= 1 y) 3 1)))
+507.62user 0.11system 8:27.80elapsed 99%CPU (0avgtext+0avgdata 131884maxresident)k
+0inputs+8outputs (0major+27615minor)pagefaults 0swaps

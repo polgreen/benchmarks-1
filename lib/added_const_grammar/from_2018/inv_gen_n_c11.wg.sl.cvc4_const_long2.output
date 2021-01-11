@@ -1,0 +1,4 @@
+unsat
+(define-fun inv ((i Int) (l Int)) Bool (let ((_let_1 (* (- 1) l))) (and (<= (+ _let_1 _let_1) 1) (<= (+ (* 0 l) (* 1 l)) 4))))
+1.38user 0.00system 0:01.39elapsed 100%CPU (0avgtext+0avgdata 34804maxresident)k
+0inputs+8outputs (0major+3382minor)pagefaults 0swaps

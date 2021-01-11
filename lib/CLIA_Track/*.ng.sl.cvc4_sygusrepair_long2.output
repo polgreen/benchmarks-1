@@ -1,0 +1,12 @@
+(error "Couldn't open file: *.ng.sl")
+(error "Couldn't open file: *.ng.sl")
+Command exited with non-zero status 1
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 13000Command exited with non-zero status 1
+m0.00auxsreers i0.00dsey(error "nsCouldn't open file: *.ng.sltt"))e
+km
+ 00:00.00ienlpauptsse+d8 o80%uCtPpUu t(s0 a(v0gmtaejxotr++0423amvigndoart)ap a13172gmeafxaruelstisd e0nstw)akp
+s0
+inputs+0outputs (0major+428minor)pagefaults 0swaps
+Command exited with non-zero status 1
+0.00user 0.00system 0:00.00elapsed 80%CPU (0avgtext+0avgdata 13080maxresident)k
+0inputs+0outputs (0major+424minor)pagefaults 0swaps

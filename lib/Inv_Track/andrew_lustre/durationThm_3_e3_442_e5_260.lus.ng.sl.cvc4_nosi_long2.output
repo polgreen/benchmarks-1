@@ -1,0 +1,4 @@
+unsat
+(define-fun str_invariant ((top.usr.k0 Int) (top.usr.m0 Int) (top.usr.p Bool) (top.usr.q Bool) (top.usr.OK Bool) (top.res.init_flag Bool) (top.impl.usr.k Int) (top.impl.usr.m Int) (top.res.abs_0 Int) (top.res.abs_1 Int) (top.res.abs_2 Bool) (top.res.abs_3 Bool) (top.res.inst_2 Bool) (top.res.inst_1 Bool) (top.res.inst_0 Bool)) Bool (and top.usr.OK (not (>= top.res.abs_0 1))))
+0.51user 0.00system 0:00.52elapsed 100%CPU (0avgtext+0avgdata 32344maxresident)k
+0inputs+8outputs (0major+2805minor)pagefaults 0swaps

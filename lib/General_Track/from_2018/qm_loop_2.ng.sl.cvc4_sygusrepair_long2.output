@@ -1,0 +1,4 @@
+unsat
+(define-fun qm-multi-loop ((x Int) (y Int)) Int (ite (<= 1 y) x (ite (<= 1 x) (+ (- 1) x) 3)))
+1124.54user 0.75system 18:45.39elapsed 99%CPU (0avgtext+0avgdata 425632maxresident)k
+8inputs+8outputs (0major+185245minor)pagefaults 0swaps

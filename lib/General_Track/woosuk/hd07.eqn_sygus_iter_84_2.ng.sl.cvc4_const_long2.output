@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((n165 Bool) (n152 Bool) (n116 Bool) (n103 Bool)) Bool (and (and (and n116 n165) n103) n152))
+1.87user 0.00system 0:01.88elapsed 99%CPU (0avgtext+0avgdata 33784maxresident)k
+0inputs+8outputs (0major+3096minor)pagefaults 0swaps

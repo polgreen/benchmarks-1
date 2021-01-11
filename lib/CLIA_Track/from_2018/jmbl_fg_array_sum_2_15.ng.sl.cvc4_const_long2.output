@@ -1,0 +1,4 @@
+unsat
+(define-fun fnd_sum ((y1 Int) (y2 Int)) Int (let ((_let_1 (+ y2 y1))) (ite (<= 16 _let_1) _let_1 0)))
+47.99user 0.02system 0:48.02elapsed 99%CPU (0avgtext+0avgdata 63964maxresident)k
+0inputs+8outputs (0major+10709minor)pagefaults 0swaps

@@ -1,0 +1,4 @@
+unsat
+(define-fun mux_2 ((x Int) (y Int)) Int (ite (<= y x) x y))
+0.59user 0.01system 0:00.63elapsed 95%CPU (0avgtext+0avgdata 30248maxresident)k
+472inputs+8outputs (2major+2284minor)pagefaults 0swaps

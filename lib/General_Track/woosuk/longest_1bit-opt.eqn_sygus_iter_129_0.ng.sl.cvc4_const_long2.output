@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((n34 Bool) (n115 Bool) (n121 Bool) (n111 Bool) (i_3 Bool)) Bool (and (and (and (or (not n34) n115) (not n111)) i_3) n121))
+46.70user 0.03system 0:46.73elapsed 99%CPU (0avgtext+0avgdata 57120maxresident)k
+0inputs+8outputs (0major+8988minor)pagefaults 0swaps

@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((n84 Bool) (n69 Bool) (n76 Bool) (n63 Bool)) Bool (and (or (and n76 n69) (not n63)) n84))
+2.19user 0.01system 0:02.20elapsed 99%CPU (0avgtext+0avgdata 33268maxresident)k
+8inputs+8outputs (0major+3058minor)pagefaults 0swaps

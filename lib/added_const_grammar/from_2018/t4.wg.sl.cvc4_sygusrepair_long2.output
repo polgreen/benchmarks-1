@@ -1,0 +1,4 @@
+unsat
+(define-fun f_141-11-141-28 ((x.end Int) (size Int) (i Int) (elem.end Int)) Bool (>= x.end elem.end))
+0.09user 0.01system 0:00.11elapsed 99%CPU (0avgtext+0avgdata 27612maxresident)k
+8inputs+8outputs (0major+1536minor)pagefaults 0swaps

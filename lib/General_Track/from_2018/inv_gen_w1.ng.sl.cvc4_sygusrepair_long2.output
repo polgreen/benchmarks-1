@@ -1,0 +1,4 @@
+unsat
+(define-fun inv ((x Int) (n Int)) Bool (or (not (>= (+ x (* (- 1) n)) 0)) (= x n)))
+0.01user 0.00system 0:00.01elapsed 87%CPU (0avgtext+0avgdata 24444maxresident)k
+8inputs+8outputs (0major+906minor)pagefaults 0swaps

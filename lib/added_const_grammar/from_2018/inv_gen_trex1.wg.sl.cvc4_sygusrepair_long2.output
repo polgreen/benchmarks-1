@@ -1,0 +1,4 @@
+unsat
+(define-fun inv ((x Int) (y Int) (k Int) (z Int) (c Int)) Bool (let ((_let_1 (- 1))) (let ((_let_2 (* _let_1 z))) (or (<= (+ _let_2 _let_2) (- 1)) (<= (+ (* _let_1 k) (* 0 y)) (- 1))))))
+114.40user 0.04system 1:54.46elapsed 99%CPU (0avgtext+0avgdata 73728maxresident)k
+8inputs+8outputs (0major+12728minor)pagefaults 0swaps

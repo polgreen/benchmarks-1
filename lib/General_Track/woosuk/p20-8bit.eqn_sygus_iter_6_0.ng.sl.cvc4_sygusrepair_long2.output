@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((n28 Bool) (n43 Bool) (n32 Bool) (n24 Bool)) Bool (and (and (and n43 n24) n28) n32))
+1.15user 0.01system 0:01.16elapsed 99%CPU (0avgtext+0avgdata 32212maxresident)k
+8inputs+8outputs (0major+2743minor)pagefaults 0swaps

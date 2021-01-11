@@ -1,0 +1,4 @@
+unsat
+(define-fun btr ((x (_ BitVec 32)) (bit (_ BitVec 32))) (_ BitVec 32) (bvxor x (bvand x (bvshl #b00000000000000000000000000000001 (bvand bit #b00000000000000000000000000011111)))))
+692.14user 0.53system 11:32.70elapsed 99%CPU (0avgtext+0avgdata 366632maxresident)k
+8inputs+8outputs (0major+140594minor)pagefaults 0swaps

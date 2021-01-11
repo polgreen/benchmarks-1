@@ -1,0 +1,4 @@
+unsat
+(define-fun f_30-42-30-64 ((i Int) (MC_741360 Int)) Bool (or (not (= MC_741360 150)) (not (= i 151))))
+0.04user 0.00system 0:00.04elapsed 100%CPU (0avgtext+0avgdata 27096maxresident)k
+0inputs+8outputs (0major+1569minor)pagefaults 0swaps

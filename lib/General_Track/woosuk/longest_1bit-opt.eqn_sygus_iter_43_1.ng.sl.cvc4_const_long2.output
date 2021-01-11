@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((i_8 Bool) (i_9 Bool) (i_7 Bool) (i_5 Bool)) Bool (and (or (or (and i_5 i_9) (not i_8)) (not i_7)) (or (not i_5) i_7)))
+110.12user 0.06system 1:50.19elapsed 99%CPU (0avgtext+0avgdata 81212maxresident)k
+0inputs+8outputs (0major+17594minor)pagefaults 0swaps

@@ -1,0 +1,4 @@
+unsat
+(define-fun f ((x Int)) Int (ite (<= x 5) (ite (<= x 4) (ite (<= x 3) (ite (not (= x 3)) (ite (not (= x 2)) (ite (not (= x 1)) x 10) 20) 30) 40) 50) x))
+0.05user 0.00system 0:00.05elapsed 100%CPU (0avgtext+0avgdata 25880maxresident)k
+0inputs+8outputs (0major+1171minor)pagefaults 0swaps

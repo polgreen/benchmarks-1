@@ -1,0 +1,4 @@
+unsat
+(define-fun f_35-7-35-46 ((this.total Int) (this.num Int) (this.start Int)) Bool (> 0 0))
+0.01user 0.00system 0:00.01elapsed 100%CPU (0avgtext+0avgdata 24152maxresident)k
+0inputs+8outputs (0major+800minor)pagefaults 0swaps

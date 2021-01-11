@@ -1,0 +1,4 @@
+unsat
+(define-fun InvF ((c Int) (n Int)) Bool (let ((_let_1 (= c n))) (and (or _let_1 (and (>= c 0) (not (>= (+ c (* (- 1) n)) 1)))) (or (not _let_1) (>= n 0)) (>= n 1))))
+0.07user 0.00system 0:00.08elapsed 97%CPU (0avgtext+0avgdata 26988maxresident)k
+8inputs+8outputs (0major+1443minor)pagefaults 0swaps

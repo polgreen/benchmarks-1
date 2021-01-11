@@ -1,0 +1,4 @@
+(error "Parse Error: t18.wg.sl:12.316: Unexpected token: '('.")
+Command exited with non-zero status 1
+0.00user 0.00system 0:00.00elapsed 71%CPU (0avgtext+0avgdata 14324maxresident)k
+336inputs+8outputs (0major+504minor)pagefaults 0swaps

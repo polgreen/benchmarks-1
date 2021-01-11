@@ -1,0 +1,4 @@
+unsat
+(define-fun f_290-29-290-44 ((data.length Int)) Bool (or (> data.length 2) (> data.length 0)))
+0.08user 0.01system 0:00.09elapsed 98%CPU (0avgtext+0avgdata 26736maxresident)k
+0inputs+8outputs (0major+1385minor)pagefaults 0swaps

@@ -1,0 +1,12 @@
+unsat
+(define-fun inv ((s (_ BitVec 4)) (t (_ BitVec 4))) (_ BitVec 4) (bvsrem (bvudiv t s) t))
+18.63user 0.03system 0:18.66elapsed 99%CPU (0avgtext+0avgdata 66916maxresident)k
+0inputs+8outputs (0major+11434minor)pagefaults 0swaps
+unsat
+(define-fun inv ((s (_ BitVec 4)) (t (_ BitVec 4))) (_ BitVec 4) (bvsrem (bvudiv t s) t))
+18.83user 0.02system 0:18.86elapsed 99%CPU (0avgtext+0avgdata 66932maxresident)k
+0inputs+0outputs (0major+11433minor)pagefaults 0swaps
+unsat
+(define-fun inv ((s (_ BitVec 4)) (t (_ BitVec 4))) (_ BitVec 4) (bvsrem (bvudiv t s) t))
+18.80user 0.04system 0:18.84elapsed 99%CPU (0avgtext+0avgdata 67276maxresident)k
+0inputs+0outputs (0major+11438minor)pagefaults 0swaps

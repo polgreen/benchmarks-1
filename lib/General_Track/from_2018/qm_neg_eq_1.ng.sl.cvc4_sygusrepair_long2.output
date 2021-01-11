@@ -1,0 +1,4 @@
+unsat
+(define-fun qm-foo ((x Int)) Int (ite (<= 1 x) 0 1))
+0.17user 0.00system 0:00.19elapsed 95%CPU (0avgtext+0avgdata 28020maxresident)k
+8inputs+8outputs (0major+1707minor)pagefaults 0swaps

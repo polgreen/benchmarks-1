@@ -1,0 +1,4 @@
+unsat
+(define-fun move ((currPoint Int) (o0 Int) (o1 Int)) Int (ite (= (get-x o1) (- 1)) (ite (= 0 (get-x currPoint)) (ite (= (get-y o0) 8) (- 1) 0) 0) 1))
+498.25user 0.11system 8:18.38elapsed 99%CPU (0avgtext+0avgdata 198736maxresident)k
+0inputs+8outputs (0major+44471minor)pagefaults 0swaps

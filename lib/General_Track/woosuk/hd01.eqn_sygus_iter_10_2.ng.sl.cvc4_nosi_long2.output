@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((i18 Bool) (i17 Bool) (i16 Bool) (i19 Bool)) Bool (and (and (and (not i17) (not i19)) (not i16)) (not i18)))
+24.12user 0.01system 0:24.14elapsed 99%CPU (0avgtext+0avgdata 43812maxresident)k
+0inputs+8outputs (0major+5607minor)pagefaults 0swaps

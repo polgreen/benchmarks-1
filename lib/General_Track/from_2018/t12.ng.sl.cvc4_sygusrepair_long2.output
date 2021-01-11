@@ -1,0 +1,4 @@
+(error "Parse Error: t12.ng.sl:1.47: Unexpected token: '\'.")
+Command exited with non-zero status 1
+0.00user 0.00system 0:00.00elapsed 66%CPU (0avgtext+0avgdata 13780maxresident)k
+8inputs+8outputs (0major+440minor)pagefaults 0swaps

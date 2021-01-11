@@ -1,0 +1,8 @@
+unsat
+(define-fun f1 ((p1 Int) (P1 Int)) Int 0)
+(define-fun f2 ((p1 Int) (P1 Int)) Int 0)
+(define-fun f3 ((p1 Int) (P1 Int)) Int (- 0 P1))
+(define-fun f4 ((p1 Int) (P1 Int)) Int 0)
+(define-fun f5 ((p1 Int) (P1 Int)) Int (- p1 p1))
+3.36user 0.01system 0:03.38elapsed 99%CPU (0avgtext+0avgdata 34656maxresident)k
+8inputs+8outputs (0major+5198minor)pagefaults 0swaps

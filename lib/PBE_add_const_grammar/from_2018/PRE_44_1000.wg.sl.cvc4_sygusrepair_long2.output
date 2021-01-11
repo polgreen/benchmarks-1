@@ -1,0 +1,4 @@
+unsat
+(define-fun f ((x (_ BitVec 64))) (_ BitVec 64) (ehad x))
+0.15user 0.00system 0:00.16elapsed 100%CPU (0avgtext+0avgdata 36100maxresident)k
+120inputs+8outputs (0major+3701minor)pagefaults 0swaps

@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((n26 Bool) (n35 Bool) (n46 Bool) (i7 Bool)) Bool (and (or (or (not n46) (not n26)) (not n35)) i7))
+16.13user 0.03system 0:16.16elapsed 99%CPU (0avgtext+0avgdata 46492maxresident)k
+0inputs+8outputs (0major+6300minor)pagefaults 0swaps

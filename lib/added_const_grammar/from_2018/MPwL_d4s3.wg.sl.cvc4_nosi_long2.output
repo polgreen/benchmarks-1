@@ -1,0 +1,4 @@
+unsat
+(define-fun move ((currPoint Int) (o0 Int) (o1 Int)) Int (let ((_let_1 (get-x currPoint))) (ite (= (get-x o0) _let_1) 2 (ite (<= 0 _let_1) (ite (<= (get-y currPoint) _let_1) 1 2) 1))))
+213.24user 0.05system 3:33.31elapsed 99%CPU (0avgtext+0avgdata 119256maxresident)k
+0inputs+8outputs (0major+24504minor)pagefaults 0swaps

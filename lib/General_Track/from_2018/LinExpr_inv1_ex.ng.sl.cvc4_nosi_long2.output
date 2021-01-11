@@ -1,0 +1,4 @@
+unsat
+(define-fun inv ((x Int) (y Int)) Int (ite (or (= y 1) (= 1 x)) (+ (+ 1 1) 1) 1))
+1465.74user 0.16system 24:25.97elapsed 99%CPU (0avgtext+0avgdata 132964maxresident)k
+0inputs+8outputs (0major+71259minor)pagefaults 0swaps

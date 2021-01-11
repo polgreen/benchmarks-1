@@ -1,0 +1,4 @@
+unsat
+(define-fun inv ((x Int) (y Int)) Bool (let ((_let_1 (* (- 1) x))) (or (<= (+ _let_1 _let_1) (- 1)) (<= (+ _let_1 (* 0 y)) (- 1)))))
+0.08user 0.00system 0:00.08elapsed 100%CPU (0avgtext+0avgdata 27400maxresident)k
+0inputs+8outputs (0major+1545minor)pagefaults 0swaps

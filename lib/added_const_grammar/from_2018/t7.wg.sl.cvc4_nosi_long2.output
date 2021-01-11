@@ -1,0 +1,4 @@
+unsat
+(define-fun f_125-10-125-47 ((bufferIndex Int) (MC_741360 Int)) Bool (> 0 0))
+0.01user 0.00system 0:00.01elapsed 100%CPU (0avgtext+0avgdata 24188maxresident)k
+0inputs+8outputs (0major+800minor)pagefaults 0swaps

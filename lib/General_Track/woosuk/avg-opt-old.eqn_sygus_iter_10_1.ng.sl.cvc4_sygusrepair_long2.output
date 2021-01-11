@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((n89 Bool) (n133 Bool) (n135 Bool) (n128 Bool) (n126 Bool)) Bool (and (and (or (or (not n135) (not n133)) n128) (not n126)) n89))
+282.86user 0.04system 4:42.92elapsed 99%CPU (0avgtext+0avgdata 85392maxresident)k
+8inputs+8outputs (0major+16062minor)pagefaults 0swaps

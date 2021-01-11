@@ -1,0 +1,4 @@
+unsat
+(define-fun inv-f ((a Int) (c Int) (j Int) (k Int) (m Int) (a_0 Int) (c_0 Int) (j_0 Int) (j_1 Int) (k_0 Int) (k_1 Int) (k_2 Int) (k_3 Int) (m_0 Int) (m_1 Int) (m_2 Int) (m_3 Int)) Bool (and (or (not (= a a_0)) (not (= c c_0)) (not (= j j_1)) (not (= k k_2)) (not (= m m_1)) (>= (+ c_0 (* (- 1) k_2)) 1) (not (>= c_0 1)) (not (>= (+ a_0 (* (- 1) m_1)) 1))) (or (not (>= k 1)) (not (>= (+ a (* (- 1) m)) 1)))))
+1235.23user 0.40system 20:35.76elapsed 99%CPU (0avgtext+0avgdata 308828maxresident)k
+0inputs+8outputs (0major+105165minor)pagefaults 0swaps

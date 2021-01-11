@@ -1,0 +1,4 @@
+unsat
+(define-fun inv-f ((x Int) (y Int) (x_0 Int) (y_0 Int) (y_1 Int) (y_2 Int)) Bool (and (>= y 0) (= x 0) (or (not (= y y_1)) (>= y_1 0) (not (= x_0 0)))))
+59.65user 0.05system 0:59.72elapsed 99%CPU (0avgtext+0avgdata 82300maxresident)k
+0inputs+8outputs (0major+17369minor)pagefaults 0swaps

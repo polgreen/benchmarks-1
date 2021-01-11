@@ -1,0 +1,4 @@
+unsat
+(define-fun qm-choose ((x Int)) Int (ite (<= 1 x) 0 1))
+0.18user 0.00system 0:00.18elapsed 99%CPU (0avgtext+0avgdata 28244maxresident)k
+8inputs+8outputs (0major+1708minor)pagefaults 0swaps

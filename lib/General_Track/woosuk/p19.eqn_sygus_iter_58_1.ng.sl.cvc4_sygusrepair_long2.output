@@ -1,0 +1,4 @@
+unsat
+(define-fun skel ((n277 Bool) (n271 Bool) (n231 Bool) (n194 Bool)) Bool (and (and (and n231 n277) n194) n271))
+1.89user 0.01system 0:01.91elapsed 99%CPU (0avgtext+0avgdata 33700maxresident)k
+8inputs+8outputs (0major+3097minor)pagefaults 0swaps

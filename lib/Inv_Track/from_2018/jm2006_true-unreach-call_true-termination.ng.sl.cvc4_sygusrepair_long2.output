@@ -1,0 +1,4 @@
+unsat
+(define-fun inv-f ((i Int) (j Int) (x Int) (y Int)) Bool (and (or (not (= x 0)) (not (= i j)) (= y 0)) (= i (+ j x (* (- 1) y)))))
+2.96user 0.01system 0:02.98elapsed 99%CPU (0avgtext+0avgdata 38100maxresident)k
+8inputs+8outputs (0major+4183minor)pagefaults 0swaps

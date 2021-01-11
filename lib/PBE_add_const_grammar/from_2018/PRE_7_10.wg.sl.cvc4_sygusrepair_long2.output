@@ -1,0 +1,4 @@
+unsat
+(define-fun f ((x (_ BitVec 64))) (_ BitVec 64) (im (bvand #b0000000000000000000000000000000000000000000000000000000000000001 x) (im (bvand #b0000000000000000000000000000000000000000000000000000000000000001 (ehad x)) (smol x) x) (bvnot x)))
+0.04user 0.00system 0:00.04elapsed 100%CPU (0avgtext+0avgdata 26828maxresident)k
+8inputs+8outputs (0major+1369minor)pagefaults 0swaps

@@ -1,0 +1,4 @@
+unsat
+(define-fun f ((x (_ BitVec 64))) (_ BitVec 64) (let ((_let_1 (bvor #b0000000000000000000000000000000000000000000000000000000000000001 (ehad x)))) (let ((_let_2 (bvand #b0000000000000000000000000000000000000000000000000000000000000001 (bvnot x)))) (im (bvand #b0000000000000000000000000000000000000000000000000000000000000001 (arba (smol x))) (im _let_2 (bvor x (shesh x)) _let_1) (im _let_2 _let_1 x)))))
+28.39user 0.07system 0:28.47elapsed 99%CPU (0avgtext+0avgdata 147824maxresident)k
+16inputs+8outputs (0major+34366minor)pagefaults 0swaps
